@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/4514d9060c.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/carlos.css">
+    <link rel="stylesheet" href="scss/app.scss">
+    <title>Blueberry - Agencia de Publicidad</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/bb2.gif" alt="Blueberry" class="img-fluid" id="logo-header" />
+                </a>
+                <div class="navbar-nav ml-auto">
+                    <div class="">
+                        <button class="btn btn-outline-success " type="submit" id="btn-contacto">
+                            <a href="#contacto-form">Work together</a>
+                        </button>
+                    </div>
+                    <div class="button_container ms-5">
+                        <button class="btn btn-primary btn-menu" type="button" id="menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="ms-5 mt-2">
+                        <span>ESP</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <style>
+        .audiovisual {
+            background: #000;
+        }
+
+        .audiovisual__videos {
+            padding-bottom: 100px;
+        }
+
+        .audiovisual__videos__col {
+            padding-bottom: 100px;
+        }
+
+        .audiovisual__videos__col_divimg {
+            padding-bottom: 100px;
+        }
+
+        .audiovisual__videos__col--overlay-image {
+            padding-bottom: 100px;
+        }
+
+        .audiovisual__videos__col--overlay-image--play {
+            padding-bottom: 100px;
+        }
+
+
+
+        /* Extra Small devices (landscape phones, 200px and up) */
+
+        @media (min-width: 200px) {
+            .audiovisual__videos__col--overlay-image--play {
+                width: 100px;
+                transform: translate(95%, -230%) !important;
+                -ms-transform: translate(95%, -230%) !important;
+            }
+        }
+
+
+        /* Extra Small devices (landscape phones, 200px and up) */
+        @media (min-width: 350px) {
+            .audiovisual__videos__col--overlay-image--play {
+                width: 120px;
+                transform: translate(33vw, -210%) !important;
+                -ms-transform: translate(33vw, -210%) !important;
+            }
+        }
+
+
+        /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 540px) {
+            .audiovisual__videos__col--overlay-image--play {
+                width: 140px;
+                transform: translate(135%, -200%) !important;
+                -ms-transform: translate(135%, -240%) !important;
+            }
+        }
+
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+
+
+            .audiovisual__videos__col--overlay-image--play {
+                width: 140px;
+                transform: translate(70%, -190%) !important;
+                -ms-transform: translate(70%, -190%) !important;
+            }
+        }
+
+
+        /* // Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .audiovisual__videos__col--overlay-image--play {
+                width: 160px;
+                transform: translate(88%, -205%) !important;
+                -ms-transform: translate(88%, -205%) !important;
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .audiovisual__videos__col--overlay-image--play {
+                transform: translate(120%, -230%) !important;
+                -ms-transform: translate(120%, -230%) !important;
+            }
+        }
+
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1400px) {
+            .audiovisual__videos__col--overlay-image--play {
+                transform: translate(145%, -255%) !important;
+                -ms-transform: translate(130%, -230%) !important;
+            }
+        }
+
+        .audiovisual__reel--pic {
+            display: block;
+            width: 100%;
+            height: auto;
+            min-height: 100px;
+            background-size: 100% 100%;
+        }
+    </style>
+    <!--AUDIOVISUAL INDEX-->
+    <div class="audiovisual section__index">
+
+        <section class="audiovisual__index">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-4">
+                        <span class="bb--title">
+                            AUDIOVISUALES
+                        </span>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-9 mt-5">
+                        <span class="bb--description">
+                            Creamos contenido audiovisual, con videos personalizados que logren capturar el alma,
+                            esencia y las cualidades únicas de tu marca.
+
+                        </span> <br>
+
+                        <button @click="redirect('portafolio')" type="button"
+                            class="btn btn-outline-light my-5 p-2 px-3">
+                            <b>VER MÁS DEL PORTAFOLIO</b>
+                        </button>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-3 d-flex justify-content-center align-items-center">
+                        <img src="img/audiovisual.gif" alt="branding" class="branding__index--image img-fluid mx-md-4">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="audiovisual__reel">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 mt-5 p-0">
+                        <img src="img/audiovisual/thumb_video_reel.jpg" class="audiovisual__reel--pic" />
+
+                        <div @click="onOpen('https://player.vimeo.com/video/613815894')"
+                            class="audiovisual__reel--overlay-image">
+                            <img src="img/play-button.png" alt="play"
+                                class="video-btn audiovisual__reel--overlay-image--play">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <style>
+            #fondo-negro {
+                background-color: #000;
+            }
+
+            .modal-content,
+            .modal-header {
+                background: none;
+                border: none;
+            }
+
+            .container-image {
+                position: relative;
+                width: 100%;
+                max-width: 100%;
+            }
+
+            .imagen-poster {
+                width: 100%;
+                height: auto;
+            }
+
+            .img-thumbnail-item {
+                padding: 0.50rem;
+                border-radius: 0.25rem;
+                max-width: 100%;
+            }
+
+            .btn-play {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                widows: 100%;
+                background-color: transparent;
+            }
+
+            #btn-play {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                cursor: pointer;
+                z-index: 2;
+            }
+
+            .btn-play img {
+                max-width: 200px;
+            }
+
+            .hover-play img {
+                position: absolute;
+                transition: opacity 1.5s ease-in-out;
+            }
+
+            .hover-play img.top:hover {
+                opacity: 0;
+            }
+        </style>
+        <!--VIDEO-->
+        <div class="container-fluid" id="fondo-negro">
+            <div class="container">
+                <div class="row wp-animated" data-animation="fadeIn" data-animation-duration="5s">
+                    <div class="col-12 text-center mt-5 mb-5">
+                        <div class="container-image d-flex justify-content-center pt-5">
+                            <img src="img/audiovisual/thumb_video_reel.jpg  " id="poster"
+                                class="img-fluid img-thumbnail-item imagen-poster" />
+                            <div class="row d-flex justify-content-center btn-play hover-play">
+                                <img class="top" src="img/play-button.png" alt="Play" id="btn-play"
+                                    data-bs-toggle="modal" data-bs-target="#Kluane-video" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal" id="Kluane-video" tabindex="-1" aria-labelledby="Kluane-videoLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close bg-dark" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" id="modal-body">
+
+                                <div class="row d-flex justify-content-center">
+                                    <div style="padding:56.25% 0 0 0;position:relative;">
+                                        <iframe src="https://player.vimeo.com/video/613815894" width="640" height="360"
+                                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+                                            allowfullscreen
+                                            style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                                    </div>
+                                    <script src="https://player.vimeo.com/api/player.js"></script>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="audiovisual__videos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 audiovisual__videos__col pb-5">
+                        <div class="audiovisual__videos__col_divimg">
+                            <img src="img/audiovisual/01-geg.png" class="audiovisual__videos__col--pic mb-5" />
+                        </div>
+
+                        <div @click="onOpen('https://player.vimeo.com/video/637164874')"
+                            class="audiovisual__videos__col--overlay-image">
+                            <img src="img/play-button.png" alt="play"
+                                class="video-btn audiovisual__videos__col--overlay-image--play">
+                        </div>
+
+                        <p class="bb--video-title">
+                            Great Experience Guaranteed
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-6 audiovisual__videos__col pb-5">
+                        <div class="audiovisual__videos__col_divimg">
+                            <img src="img/audiovisual/02-mercado.png" class="audiovisual__videos__col--pic mb-5" />
+                        </div>
+
+
+                        <div @click="onOpen('https://player.vimeo.com/video/637159104')"
+                            class="audiovisual__videos__col--overlay-image">
+                            <img src="img/play-button.png" alt="play"
+                                class="video-btn audiovisual__videos__col--overlay-image--play">
+                        </div>
+
+                        <p class="bb--video-title">
+                            Mercado Premier
+                        </p>
+
+                        <!-- <p class="audiovisual__videos__col--description">
+                            Título del video 
+                        </p> -->
+                    </div>
+
+                    <div class="col-12 col-md-6 audiovisual__videos__col pb-5">
+                        <div class="audiovisual__videos__col_divimg">
+                            <img src="img/audiovisual/03-nuts.png" class="audiovisual__videos__col--pic mb-5" />
+                        </div>
+
+                        <div @click="onOpen('https://player.vimeo.com/video/637231043')"
+                            class="audiovisual__videos__col--overlay-image">
+                            <img src="img/play-button.png" alt="play"
+                                class="video-btn audiovisual__videos__col--overlay-image--play">
+                        </div>
+
+                        <p class="bb--video-title">
+                            Premier Nuts
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-6 audiovisual__videos__col pb-5">
+                        <div class="audiovisual__videos__col_divimg">
+                            <img src="img/audiovisual/04-remax.png" class="audiovisual__videos__col--pic mb-5" />
+                        </div>
+
+                        <div @click="onOpen('https://player.vimeo.com/video/613875548')"
+                            class="audiovisual__videos__col--overlay-image">
+                            <img src="img/play-button.png" alt="play"
+                                class="video-btn audiovisual__videos__col--overlay-image--play">
+                        </div>
+
+                        <p class="bb--video-title">
+                            REMAX
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-6 audiovisual__videos__col pb-5">
+                        <div class="audiovisual__videos__col_divimg">
+                            <img src="img/audiovisual/05-baufaktory.png" class="audiovisual__videos__col--pic mb-5" />
+                        </div>
+
+                        <div @click="onOpen('https://player.vimeo.com/video/613967712')"
+                            class="audiovisual__videos__col--overlay-image">
+                            <img src="img/play-button.png" alt="play"
+                                class="video-btn audiovisual__videos__col--overlay-image--play">
+                        </div>
+
+                        <p class="bb--video-title">
+                            Baufaktory, Calidad Contract
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-6 audiovisual__videos__col pb-5">
+                        <div class="audiovisual__videos__col_divimg">
+                            <img src="img/audiovisual/06-tequila-patron.png"
+                                class="audiovisual__videos__col--pic mb-5" />
+                        </div>
+
+                        <div @click="onOpen('https://player.vimeo.com/video/613888973')"
+                            class="audiovisual__videos__col--overlay-image">
+                            <img src="img/play-button.png" alt="play"
+                                class="video-btn audiovisual__videos__col--overlay-image--play">
+                        </div>
+
+                        <p class="bb--video-title">
+                            Hacienda Tequila El Patrón
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Modal -->
+        <GDialog v-model="value" max-width="850">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+
+                            <iframe class="embed-responsive-item" :src="src_video" id="video" allowscriptaccess="always"
+                                allow="autoplay" v-if="value">
+                            </iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </GDialog>
+
+    </div>
+
+    <!--FORMULARIO-->
+    <div class="container-fluid pt-2" id="contacto-form">
+        <div class="row">
+            <div class="col-12 col-lg-6 aling-self-center">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <video muted autoplay loop class="video-bg_video" style="max-width: 700px;">
+                            <source src="vid/video_contact.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6 px-4 px-sm-5" id="mensaje-agradecimiento">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h1>¡Gracias!</h1>
+                    </div>
+                    <div class="col-12">
+                        <h4>Nos pondremos en contacto contigo a la brevedad.</h4>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center align-items-center py-0 py-lg-4">
+                        <div class="text-center">
+                            <h4>Si deseas comunicarte con nosotros<br> de manera directa puedes <br>
+                                llamarnos al <a href="tel:3331093636">33 3109 3636</a> escribir al<br> <i
+                                    class="fa-brands fa-whatsapp"></i> <a href="tel3313257156">33 1325 7156</a> o por
+                                correo a <br>
+                                <a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry">
+                                    hello@blueberry.mx</a>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 px-4 px-sm-5" id="contacto">
+                <form method="POST" action="send_email.php" class="pt-5 form-contacto" onsubmit="miFuncion()">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input required type="text" class="form-control borde-bottom" id="exampleFormControlInput1"
+                            name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                        <input required type="email" class="form-control borde-bottom" id="exampleFormControlInput1"
+                            name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                        <input required type="text" class="form-control borde-bottom" id="exampleFormControlInput1"
+                            name="telefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea required class="form-control borde-bottom" id="exampleFormControlTextarea1" rows="3"
+                            name="mensaje"></textarea>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="g-recaptcha" data-sitekey="6LdGNygfAAAAAHjcc_-l67r1zAQ86Jf-B7mhlB6t"></div>
+                    </div>
+
+                    <br>
+                    <div class="text-end">
+                        <input type="submit" class="btn btn-light btn-enviar" name="enviar" placeholder="Enviar">
+                    </div>
+
+                </form>
+
+            </div>
+
+            <script>
+                function miFuncion() {
+                    var response = grecaptcha.getResponse();
+
+                    if (response.length == 0) {
+
+                        // window.alert("Favor de llenar el captcha");
+                        Swal.fire({
+                            title: 'Error',
+                            text: 'El campo "No soy un robot" no esta seleccionado',
+                            icon: 'error',
+                            confirmButtonText: 'Ok',
+                            confirmButtonColor: '#000000',
+                        })
+                        event.preventDefault();
+                        // window.history.back();       
+                    } else {
+
+                        document.getElementById('mensaje-agradecimiento').style.display = 'block';
+                        document.getElementById('contacto').style.display = 'none';
+                    }
+                }
+            </script>
+
+        </div>
+    </div>
+    <footer>
+        <div class="container pt-5">
+            <div class="row pt-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                    <h4>Dirección</h5>
+                        <h5 class="pt-4 h6">Av. Rubén Darío #586 Col. Prados Providencia <br>
+                            C.P 44670, Guadalajara, Jalisco</h5>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                    <h4>Contacto</h4>
+                    <a href="tel:3331093636">
+                        <h5 class="pt-4 h6">33 31 09 3636</h5>
+                    </a>
+                    <a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry">
+                        <h5 class="h6">hello@blueberry.mx</h5>
+                    </a>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3  pt-5">
+                    <h5 class="h6"><a href="https://blueberry.mx/privacy">Aviso de privacidad</a></h5>
+                    <h5 class="h6"><a href="https://blueberry.mx/terms">Términos y condiciones</a></h5>
+                    <h5 class="h6"><a href="https://blueberry.mx/cookies">Política de Cookies</a></h5>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3  pt-5">
+                    <img src="img/blueberry.gif" alt="MATERIALIZED BY Blueberry" class="img-fluig" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-12 mt-5">
+                    <h4>Siguenos</h4>
+                    <a href="https://www.facebook.com/blueberrymx/" target="_blank" rel="noopener noreferrer"><img
+                            src="img/icono-fb-footer.png" alt="Blueberry" class="img-fluid mx-1" /></a>
+                    <a href="https://www.instagram.com/blueberrymx_/" target="_blank" rel="noopener noreferrer"><img
+                            src="img/icono-ins-footer.png" alt="@blueberrymx_" class="img-fluid mx-1" /></a>
+                    <a href="https://www.linkedin.com/company/blueberrymx" target="_blank"
+                        rel="noopener noreferrer"><img src="img/icono-in-footer.png" alt="Blueberry"
+                            class="img-fluid mx-1" /></a>
+                    <a href="https://vimeo.com/blueberrymx" target="_blank" rel="noopener noreferrer"><img
+                            src="img/icono-v-footer.png" alt="Blueberry" class="img-fluid mx-1" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
