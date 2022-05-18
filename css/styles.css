@@ -147,6 +147,25 @@ input, label{
     width: 100%;
     height: 100%;
 }
+.video-branding{
+    position: relative;
+    width: 100%;
+    height: 98vh;
+    min-height: 25rem;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+}
+.video-branding video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
 /*TERMINA VIDEOS EN HEADER*/
 /*SECCIÓN SOMOS INDEX*/
 .tit-somos{
@@ -299,3 +318,41 @@ hr {
     }
 }
 /*TERMINA RESPONSIVO*/
+/*FONDOS DE COLORES*/
+.bg-morado{
+    border-radius: 10px;
+    background: #810cce;
+    background: linear-gradient(90deg,#810cce 0%,#ee1796 100%);
+    padding-bottom: 50px;
+}
+.bg-amarillo{
+    background: linear-gradient(233.74deg,#FDCF07 .81%,#EE1796 100%);
+    border-radius: 19px;
+}
+.bg-verde{
+    position: relative;
+    top: 20px;
+    background: linear-gradient(79.33deg,#1B9235 -1.56%,#F0E712 101.4%);
+    border-radius: 19px;
+    padding-bottom: 50px;
+}
+/*TERMINA FONDOS DE COLORES*/
+/*VIDEOS EN BRANDING*/
+.branding-box-right{
+    position: absolute;
+    z-index: 2;
+}
+.vid-per{
+    position: relative;
+    height: 65vh;
+    left: 5%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.branding-video{
+    position: relative;
+    height: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 19px;
+}
