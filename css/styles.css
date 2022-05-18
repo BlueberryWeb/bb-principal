@@ -337,6 +337,38 @@ hr {
     padding-bottom: 50px;
 }
 /*TERMINA FONDOS DE COLORES*/
+/*PORTAFOLIO*/
+.portafolio{
+ padding-top: 7rem;
+}
+.efecto{
+    opacity: 0.5;
+}
+.efecto button{
+    display: none;
+}
+.efecto:hover button{
+    display: flex;
+}
+.efecto:hover{
+    opacity: 1;
+}
+.portafolio_product-video_reel{
+    cursor: pointer;
+}
+.portafolio_product-video{
+    max-width: 100%;
+    min-width: 100%;
+}
+.portafolio_product-video_reel video{
+    -webkit-filter: brightness(45%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+/*TERMINA PORTAFOLIO*/
 /*VIDEOS EN BRANDING*/
 .branding-box-right{
     position: absolute;
