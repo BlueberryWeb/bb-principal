@@ -336,6 +336,11 @@ hr {
     border-radius: 19px;
     padding-bottom: 50px;
 }
+.bg-azul{
+    border-radius: 19px;
+    background: linear-gradient(79.33deg,#0775CC -1.56%,#02EBBB 101.4%);
+    padding-bottom: 80px;
+}
 /*TERMINA FONDOS DE COLORES*/
 /*PORTAFOLIO*/
 .portafolio{
@@ -369,6 +374,12 @@ hr {
     transition: all 1s ease;
 }
 /*TERMINA PORTAFOLIO*/
+/*DESARROLLO WEB*/
+.video-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/*TERMINA DESARROLLO WEB*/
 /*VIDEOS EN BRANDING*/
 .branding-box-right{
     position: absolute;
