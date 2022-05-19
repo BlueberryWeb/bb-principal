@@ -354,6 +354,9 @@ hr {
 .efecto{
     opacity: 0.5;
 }
+.efecto a:hover{
+    opacity: 1;
+}
 .efecto button{
     display: none;
 }
@@ -392,6 +395,26 @@ hr {
     float: left;
 }
 /*TERMINA DESARROLLO WEB*/
+/*PROYECTOS DE BLUEBERRY*/
+/*CIRCO DRAGÓN*/
+.proyect-1-content-pic{
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    background-size: 100% 100%;
+}
+/*TERMINA CIRCO DRAGÓN*/
+/*SNG*/
+.proyect2-content{
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    background-size: 100% 100%;
+}
+/*TERMINA SNG*/
+/*TERMINA PROYECTOS DE BLUEBERRY*/
 /*VIDEOS EN BRANDING*/
 .branding-box-right{
     position: absolute;
