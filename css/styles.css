@@ -126,6 +126,22 @@ input, label{
 .btn-cerrar:hover{
     opacity: 0.5;
 }
+.ver-mas-portafolio{
+    background: none;
+    color: #fff;
+    border-radius: 0;
+    font-family: 'Prompt-Bold';
+    cursor: pointer;
+}
+.ver-mas-portafolio a{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.ver-mas-portafolio:hover{
+    background: none;
+    color: #fff;
+}
 /*TERMINAN BOTONES*/
 /*VIDEOS EN HEADER*/
 .video-index{
@@ -308,16 +324,6 @@ hr {
 }
 /*TERMINA ANIMACIÓN MENU*/
 /*TERMINA MENU*/
-/*RESPONSIVO*/
-@media(max-width:400px){
-    .menu-pt1{
-        margin-top: 0;
-    }
-    .menu-gde h1{
-        font-size: 2rem;
-    }
-}
-/*TERMINA RESPONSIVO*/
 /*FONDOS DE COLORES*/
 .bg-morado{
     border-radius: 10px;
@@ -345,6 +351,10 @@ hr {
     border-radius: 19px;
     background: linear-gradient(79.33deg,#053D65 -1.56%,#39C2FC 101.4%);
     padding-bottom: 50px; 
+}
+.bg-bco{
+    background-color: #fff;
+    color: #000000;
 }
 /*TERMINA FONDOS DE COLORES*/
 /*PORTAFOLIO*/
@@ -415,22 +425,147 @@ hr {
 }
 /*TERMINA SNG*/
 /*TERMINA PROYECTOS DE BLUEBERRY*/
-/*VIDEOS EN BRANDING*/
-.branding-box-right{
-    position: absolute;
-    z-index: 2;
+/*SOMOS*/
+.section_somos{
+    padding-top: 110px;
 }
-.vid-per{
+.section_somos_div{
+    padding-right: 1rem!important;
+    padding-left: 1rem!important;
+    padding-top: 24px;
     position: relative;
-    height: 65vh;
-    left: 5%;
-    border-radius: 20px;
-    overflow: hidden;
 }
-.branding-video{
-    position: relative;
-    height: 100%;
+.section_somos_video{
+    padding: 0;
+    order: 1;
+}
+.section_somos video{
+    max-width: 100px;
+}
+.somos-icono{
+    width: 105px;
+}
+.somos_hacer hr{
+    margin-top: 44px;
+    margin-bottom: 40px;
+    width: 96.31px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+}
+.video_somos_loop{
     max-width: 100%;
     min-width: 100%;
-    border-radius: 19px;
 }
+/*TERMINA SOMOS*/
+/*AUDIOVISUAL*/
+.audiovisual-reel-pic{
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    background-size: 100% 100%;
+}
+.audiovisual_reel_overlay-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+.audiovisual_reel_overlay-image-play{
+    color: #000;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    top: -50%;
+    left: 45%;
+}
+.contenedor-modal{
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.audiovisual__videos__col {
+    margin-bottom: 3.5rem;
+    text-align: center;
+}
+.audiovisual__videos__col_divimg {
+    display: flex;
+    justify-content: center;
+}
+.audiovisual__videos__col--overlay-image {
+    position: absolute;
+    height: 100%;
+    widows: 100%;
+    background-color: transparent;
+}
+.audiovisual_videos_col_pic{
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    background-size: 100% 100%;
+}
+.audiovisual__videos__col_divimg img {
+    max-width: 320px;
+}
+.audiovisual_videos_col_overlay-image-play{
+    cursor: pointer;
+    z-index: 2;
+    left: 240px;
+    position: relative;
+    top: -40%;
+}.tit-secciones{
+    margin-top: 110px;
+}
+/* TERMINA AUDIOVISUAL*/
+/*RESPONSIVO*/
+@media(max-width:400px){
+    .menu-pt1{
+        margin-top: 0;
+    }
+    .menu-gde h1{
+        font-size: 2rem;
+    }
+    .audiovisual_reel_overlay-image{
+        width: 70px;
+    }
+    .audiovisual_reel_overlay-image-play{
+        top: -135px;
+        left: 150px;
+    }
+    .audiovisual__videos__col--overlay-image{
+        width: 80px;
+    }
+    .audiovisual_videos_col_overlay-image-play{
+        cursor: pointer;
+        z-index: 2;
+        left: 140px;
+        position: relative;
+        top: -190px;
+    }
+}
+@media(max-width:700px){
+    .menu-pt1{
+        margin-top: 0;
+    }
+    .menu-gde h1{
+        font-size: 2rem;
+    }
+    .audiovisual_reel_overlay-image{
+        width: 70px;
+    }
+    .audiovisual_reel_overlay-image-play{
+        top: -135px;
+        left: 150px;
+    }
+    .audiovisual__videos__col--overlay-image{
+        width: 80px;
+    }
+    .audiovisual_videos_col_overlay-image-play{
+        cursor: pointer;
+        z-index: 2;
+        left: 140px;
+        position: relative;
+        top: -190px;
+    }
+}
+/*TERMINA RESPONSIVO*/
