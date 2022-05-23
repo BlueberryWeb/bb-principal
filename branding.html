@@ -39,61 +39,86 @@
             </div>
         </nav>
     </header>
-    <!--MENÚ-->
-    <div class="container menu" id="menu">
-        <div class="row pt-5">
-            <div class="col-12 col-lg-5 col-sm-12 col-md-12 menu-pt1 order-1 pb-5">
-                <div class="text-start ">
-                    <a href="index.html">
-                        <h1 class="h4 regular">INICIO</h1>
-                    </a>
-                    <a href="somos.html">
-                        <h1 class="h4 regular">SOMOS</h1>
-                    </a>
-                    <a href="portafolio.html">
-                        <h1 class="h4 regular">PORTAFOLIO</h1>
-                    </a>
-                    <a href="https://www.facebook.com/blueberrymx/" target="_blank" rel="noopener noreferrer">
-                        <img src="img/icono-fb-footer.png" alt="Blueberry" class="img-fluid mx-2"/>
-                    </a>
-                    <a href="https://www.instagram.com/blueberrymx_/" target="_blank" rel="noopener noreferrer">
-                        <img src="img/icono-ins-footer.png" alt="@blueberrymx_" class="img-fluid mx-2"/>
-                    </a>
-                    <a href="https://www.linkedin.com/company/blueberrymx" target="_blank" rel="noopener noreferrer">
-                        <img src="img/icono-in-footer.png" alt="Blueberry"class="img-fluid mx-2" />
-                    </a>
-                    <a href="https://vimeo.com/blueberrymx" target="_blank" rel="noopener noreferrer">
-                        <img src="img/icono-v-footer.png" alt="Blueberry" class="img-fluid mx-2"/>
-                    </a>
-                </div>
+   <!--MENÚ-->
+   <div class="container menu pb-5" id="menu">
+    <div class="row pt-5">
+        <div class="col-12 col-lg-7 col-sm-12 col-md-12 menu-gde d-block d-sm-block d-md-none">
+            <div class="text-end pb-5">
+                <img src="img/close.png" alt="Cerrar" class="img-fluid btn-cerrar" onclick="cerrar()"/>
             </div>
-            <div class="col-12 col-lg-7 col-sm-12 col-md-12 menu-gde order-0">
-                <div class="text-end pb-5">
-                    <img src="img/close.png" alt="Cerrar" class="img-fluid btn-cerrar" onclick="cerrar()"/>
-                </div>
-                <div class="text-end pt-5">
-                    <a href="branding.html">
-                        <h1 class="display-2 bold">BRANDING</h1>
-                    </a>
-                    <a href="diseño.html">
-                        <h1 class="display-2 bold">DISEÑO INTEGRAL</h1>
-                    </a>
-                    <a href="audiovisual.html">
-                        <h1 class="display-2 bold">AUDIOVISUAL</h1>
-                    </a>
-                    <a href="fotografía.html">
-                        <h1 class="display-2 bold">FOTOGRAFÍA</h1>
-                    </a>
-                    <a href="desarrolloWeb.html">
-                        <h1 class="display-2 bold">DESARROLLO WEB</h1>
-                    </a>
-                    <a href="contacto.html">
-                        <h1 class="display-2 bold">CONTACTO</h1>
-                    </a>
-                </div>
+            <div class="text-end pt-5">
+                <a href="branding.html">
+                    <h1 class="display-2 bold">BRANDING</h1>
+                </a>
+                <a href="diseño.html">
+                    <h1 class="display-2 bold">DISEÑO INTEGRAL</h1>
+                </a>
+                <a href="audiovisual.html">
+                    <h1 class="display-2 bold">AUDIOVISUAL</h1>
+                </a>
+                <a href="fotografía.html">
+                    <h1 class="display-2 bold">FOTOGRAFÍA</h1>
+                </a>
+                <a href="desarrolloWeb.html">
+                    <h1 class="display-2 bold">DESARROLLO WEB</h1>
+                </a>
+                <a href="contacto.html">
+                    <h1 class="display-2 bold">CONTACTO</h1>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-5 col-sm-12 col-md-12 menu-pt1">
+            <div class="text-start ">
+                <a href="index.html">
+                    <h1 class="h4 regular">INICIO</h1>
+                </a>
+                <a href="somos.html">
+                    <h1 class="h4 regular">SOMOS</h1>
+                </a>
+                <a href="portafolio.html">
+                    <h1 class="h4 regular">PORTAFOLIO</h1>
+                </a>
+                <a href="https://www.facebook.com/blueberrymx/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/icono-fb-footer.png" alt="Blueberry" class="img-fluid mx-2"/>
+                </a>
+                <a href="https://www.instagram.com/blueberrymx_/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/icono-ins-footer.png" alt="@blueberrymx_" class="img-fluid mx-2"/>
+                </a>
+                <a href="https://www.linkedin.com/company/blueberrymx" target="_blank" rel="noopener noreferrer">
+                    <img src="img/icono-in-footer.png" alt="Blueberry"class="img-fluid mx-2" />
+                </a>
+                <a href="https://vimeo.com/blueberrymx" target="_blank" rel="noopener noreferrer">
+                    <img src="img/icono-v-footer.png" alt="Blueberry" class="img-fluid mx-2"/>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-lg-7 col-sm-12 col-md-12 menu-gde d-none d-sm-none d-md-block">
+            <div class="text-end pb-5">
+                <img src="img/close.png" alt="Cerrar" class="img-fluid btn-cerrar" onclick="cerrar()"/>
+            </div>
+            <div class="text-end pt-5">
+                <a href="branding.html">
+                    <h1 class="display-2 bold">BRANDING</h1>
+                </a>
+                <a href="diseño.html">
+                    <h1 class="display-2 bold">DISEÑO INTEGRAL</h1>
+                </a>
+                <a href="audiovisual.html">
+                    <h1 class="display-2 bold">AUDIOVISUAL</h1>
+                </a>
+                <a href="fotografía.html">
+                    <h1 class="display-2 bold">FOTOGRAFÍA</h1>
+                </a>
+                <a href="desarrolloWeb.html">
+                    <h1 class="display-2 bold">DESARROLLO WEB</h1>
+                </a>
+                <a href="contacto.html">
+                    <h1 class="display-2 bold">CONTACTO</h1>
+                </a>
             </div>
         </div>
     </div>
+</div>
     <div class="design"></div>
     <div class="section__index">
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" class="w-100">
