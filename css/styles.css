@@ -10,6 +10,9 @@
     font-family: 'Prompt-Regular';
     src: url("fonts/Prompt-Regular.ttf");   
 }
+.grecaptcha-badge {
+    visibility: hidden;
+}   
 .bold{
     font-family: 'Prompt-Bold';
 }
@@ -283,6 +286,7 @@ footer a:hover{
 /*MENU*/
 .menu{
     color: #fff;
+    overflow: hidden;
 }
 .menu a{
     text-decoration: none;
