@@ -12,7 +12,7 @@ use PHPMailer\PHPMailer\Exception;
 require './vendor/autoload.php';
 
 $sender = 'noreply.blueberry@gmail.com';
-$senderName = 'Pagina Blueberry';
+$senderName = 'Nuevo Contacto en blueberry.mx';
 
 
 $recipient1 = 'pruebascorreosbb@gmail.com';
