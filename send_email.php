@@ -1,5 +1,4 @@
 
-
 <?php
 $nombre = trim($_POST['nombre']);
 $email = trim($_POST['email']);
