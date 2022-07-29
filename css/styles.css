@@ -10,6 +10,9 @@
     font-family: 'Prompt-Regular';
     src: url("fonts/Prompt-Regular.ttf");   
 }
+.a_none_style{
+    text-decoration: none;
+}
 .grecaptcha-badge {
     visibility: hidden;
 }   
@@ -191,6 +194,13 @@ input, label{
 /*TERMINA VIDEOS EN HEADER*/
 /*SECCIÓN SOMOS INDEX*/
 .tit-somos{
+    position: relative;
+    padding-left: 180px;
+    margin-top: 10px;
+    z-index: 1;
+    font-family: 'Prompt-Bold';
+}
+.tit-somos-eng{
     position: relative;
     padding-left: 180px;
     margin-top: 10px;
