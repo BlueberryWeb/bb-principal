@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="https://kit.fontawesome.com/4514d9060c.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Blueberry - Agencia de Publicidad</title>
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container-fluid pt-3">
+              <a class="navbar-brand" href="index.html">
+                  <img src="img/bb2.gif" alt="Blueberry" class="img-fluid" id="logo-header"/>
+              </a>
+              <div class="navbar-nav ml-auto" >
+                    <div class=" d-none d-sm-none d-md-block">
+                        <button class="btn btn-outline-success " type="submit" id="btn-contacto">
+                            <a href="contacto.html">Work together</a>
+                        </button>
+                    </div>
+                    <div class="button_container ms-5">
+                        <button class="btn btn-primary btn-menu" id="btn-menu" onclick="menu()" >
+                            <img src="img/burguer_menu.jpeg" alt="Menu" class="img-fluid"/>
+                          </button>
+                    </div>
+                    <div class="ms-4 me-5 mt-2 d-none d-sm-none d-md-block">
+                        <span>ESP</span>
+                    </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--MENÚ-->
+    <div class="container menu pb-5" id="menu">
+        <div class="row pt-5">
+            <div class="col-12 col-lg-7 col-sm-12 col-md-12 menu-gde d-block d-sm-block d-md-none">
+                <div class="text-end pb-5">
+                    <img src="img/close.png" alt="Cerrar" class="img-fluid btn-cerrar" onclick="cerrar()"/>
+                </div>
+                <div class="text-end pt-5">
+                    <a href="branding.html">
+                        <h1 class="display-2 bold">BRANDING</h1>
+                    </a>
+                    <a href="diseño.html">
+                        <h1 class="display-2 bold">DISEÑO INTEGRAL</h1>
+                    </a>
+                    <a href="audiovisual.html">
+                        <h1 class="display-2 bold">AUDIOVISUAL</h1>
+                    </a>
+                    <a href="fotografía.html">
+                        <h1 class="display-2 bold">FOTOGRAFÍA</h1>
+                    </a>
+                    <a href="desarrolloWeb.html">
+                        <h1 class="display-2 bold">DESARROLLO WEB</h1>
+                    </a>
+                    <a href="contacto.html">
+                        <h1 class="display-2 bold">CONTACTO</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-5 col-sm-12 col-md-12 menu-pt1">
+                <div class="text-start ">
+                    <a href="index.html">
+                        <h1 class="h4 regular">INICIO</h1>
+                    </a>
+                    <a href="somos.html">
+                        <h1 class="h4 regular">SOMOS</h1>
+                    </a>
+                    <a href="portafolio.html">
+                        <h1 class="h4 regular">PORTAFOLIO</h1>
+                    </a>
+                    <a href="https://www.facebook.com/blueberrymx/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icono-fb-footer.png" alt="Blueberry" class="img-fluid mx-2"/>
+                    </a>
+                    <a href="https://www.instagram.com/blueberrymx_/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icono-ins-footer.png" alt="@blueberrymx_" class="img-fluid mx-2"/>
+                    </a>
+                    <a href="https://www.linkedin.com/company/blueberrymx" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icono-in-footer.png" alt="Blueberry"class="img-fluid mx-2" />
+                    </a>
+                    <a href="https://vimeo.com/blueberrymx" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icono-v-footer.png" alt="Blueberry" class="img-fluid mx-2"/>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-7 col-sm-12 col-md-12 menu-gde d-none d-sm-none d-md-block">
+                <div class="text-end pb-5">
+                    <img src="img/close.png" alt="Cerrar" class="img-fluid btn-cerrar" onclick="cerrar()"/>
+                </div>
+                <div class="text-end pt-5">
+                    <a href="branding.html">
+                        <h1 class="display-2 bold">BRANDING</h1>
+                    </a>
+                    <a href="diseño.html">
+                        <h1 class="display-2 bold">DISEÑO INTEGRAL</h1>
+                    </a>
+                    <a href="audiovisual.html">
+                        <h1 class="display-2 bold">AUDIOVISUAL</h1>
+                    </a>
+                    <a href="fotografía.html">
+                        <h1 class="display-2 bold">FOTOGRAFÍA</h1>
+                    </a>
+                    <a href="desarrolloWeb.html">
+                        <h1 class="display-2 bold">DESARROLLO WEB</h1>
+                    </a>
+                    <a href="contacto.html">
+                        <h1 class="display-2 bold">CONTACTO</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--VIDEO DEL HEADER-->
+
+    <!--SOMOS INDEX-->
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col-12 col-lg-2 col-md-12 col-sm-12 tit-somos">
+                <p class="bb-title display-1">SOMOS</p>
+            </div>
+            <div class="col-12 col-lg-10 col-md-12 col-sm-12  d-flex justify-content-end pt-5">
+                <div class="video-somos">
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+                        <source src="vid/weare.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 pt-5">
+                <div class="text-end">
+                    <button type="button" class="btn btn-light btn-conoce">
+                        <a href="https://blueberry.mx/" target="_blank" rel="noopener noreferrer">Conoce más</a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 pt-5">
+                <div class="text-end">
+                    <p>Blueberry. es una compañía de consultoría multidisciplinaria dedicada a materializar negocios inteligentes.</p>
+                    <p>Tenemos las herramientas necesarias para que tu idea de negocio, producto o servicio sea potencializada. Te acompañamos en este proceso de crecimiento y nos comprometemos a ser los mejores aliados para que cumplas tus objetivos empresariales.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SERVICIOS-->
+    <div class="container pt-5">
+        <!--BRANDING-->
+        <div class="row py-5">
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 pt-5">
+                <div class="">
+                    <img src="img/branding.gif" alt="Blueberry" class="img-fluid b_serv pb-3"/>
+                    <hr class="brandig_hr">
+                </div>
+                <div class="">
+                    <h3>BRANDING</h3>
+                    <p class="">Branding es el trabajo de gestión de marca con el <br> objetivo de hacerla deseada y positiva en la mente <br> y el corazón de los consumidores.</p>
+                </div> 
+                <div class="">
+                    <button type="button" class="btn btn-light btn-ver-mas">
+                        <a href="https://blueberry.mx/" target="_blank" rel="noopener noreferrer">VER MÁS</a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 d-flex pt-5">
+                <div class="v-bran-in">
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+                        <source src="vid/branding.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!--DISEÑO INTEGRAL-->
+        <div class="row py-5">
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 pt-5">
+                <div class="">
+                    <img src="img/diseño.gif" alt="Blueberry" class="img-fluid b_serv pb-3"/>
+                    <hr class="brandig_hr">
+                </div>
+                <div class="">
+                    <h3>DISEÑO INTEGRAL</h3>
+                    <p class="">En Blueberry. nos enfocamos en crear un sistema <br>
+                        eficiente que logre materializar tus ideas por medio <br>
+                        de la asesoría profesional.
+                    </p>
+                </div> 
+                <div class="">
+                    <button type="button" class="btn btn-light btn-ver-mas">
+                        <a href="https://blueberry.mx/" target="_blank" rel="noopener noreferrer">VER MÁS</a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 d-flex pt-5">
+                <div class="v-bran-in">
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+                        <source src="vid/diseño_integral.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!--FOTOGRAFÍA-->
+        <div class="row py-5">
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 pt-5">
+                <div class="">
+                    <img src="img/audiovisual.gif" alt="Blueberry" class="img-fluid b_serv pb-3"/>
+                    <hr class="brandig_hr">
+                </div>
+                <div class="">
+                    <h3>FOTOGRAFÍA</h3>
+                    <p class="">En Blueberry. no tomamos fotos, capturamos <br>
+                        momentos, espacios, productos, personas que <br> 
+                        trascienden y comunican el mensaje de manera <br> 
+                        precisa.
+                    </p>
+                </div> 
+                <div class="">
+                    <button type="button" class="btn btn-light btn-ver-mas">
+                        <a href="https://blueberry.mx/" target="_blank" rel="noopener noreferrer">VER MÁS</a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 d-flex pt-5">
+                <div class="v-bran-in">
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+                        <source src="vid/fotografia.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+         <!--AUDIOVISUAL-->
+         <div class="row py-5">
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 pt-5">
+                <div class="">
+                    <img src="img/audiovisual.gif" alt="Blueberry" class="img-fluid b_serv pb-3"/>
+                    <hr class="brandig_hr">
+                </div>
+                <div class="">
+                    <h3>AUDIOVISUAL</h3>
+                    <p class="">Creamos contenido audiovisual personalizado que <br>
+                        logre capturar la esencia y las cualidades únicas de <br> 
+                        tu marca.
+                    </p>
+                </div> 
+                <div class="">
+                    <button type="button" class="btn btn-light btn-ver-mas">
+                        <a href="https://blueberry.mx/" target="_blank" rel="noopener noreferrer">VER MÁS</a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 d-flex pt-5">
+                <div class="v-bran-in">
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+                        <source src="vid/audiovisual.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <!--DESARROLLO WEB-->
+        <div class="row py-5">
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 pt-5">
+                <div class="">
+                    <img src="img/desarrollo.gif" alt="Blueberry" class="img-fluid b_serv pb-3"/>
+                    <hr class="brandig_hr">
+                </div>
+                <div class="">
+                    <h3>DESARROLLO WEB</h3>
+                    <p class="">Somos especialistas en la creación de páginas web <br> 
+                        orientadas a crear experiencias únicas.
+                    </p>
+                </div> 
+                <div class="">
+                    <button type="button" class="btn btn-light btn-ver-mas">
+                        <a href="https://blueberry.mx/" target="_blank" rel="noopener noreferrer">VER MÁS</a>
+                    </button>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 col-sm-12 col-md-12 d-flex pt-5">
+                <div class="v-bran-in">
+                    <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+                        <source src="vid/desarrollo_web.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--CLIENTES-->
+    <div class="container pt-5">
+        <div class="row pt-5">
+            <h1 class="display-1">CLIENTES</h1>
+        </div>
+        <div class="row py-5">
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/movalia.png" alt="MOVALIA" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/circo_dragon.png" alt="CIRCO DRAGON" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/parvati.png" alt="PARVATI" class="img-fluid"/>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/kdl.png" alt="KLUANE DRILLING LTD." class="img-fluid"/>
+            </div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/premier.png" alt="GRUPO PREMIER" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/mercado.png" alt="MERCADO PREMIER" class="img-fluid cl-imag"/>
+            </div>
+        </div>
+        <div class="row py-5">
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/beirat.png" alt="BEIRAT" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/integra.png" alt="INTEGRA TRADE & LOGISTICS" class="img-fluid"/>
+            </div>
+            <div class="col-12 col-lg-4 col-sm-12 col-md-12">
+                <img src="img/great.png" alt="GREAT ESPERIENCE GUARANTEED" class="img-fluid"/>
+            </div>
+        </div>
+    </div>
+    <!--FORMULARIO-->
+    <div class="container-fluid pt-5" id="contacto-form">
+        <div class="row">
+            <div class="col-12 col-lg-6 aling-self-center">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <video muted autoplay loop class="video-bg_video" style="max-width: 700px;">
+                            <source src="vid/video_contact.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6 px-4 px-sm-5" id="mensaje-agradecimiento">
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h1>¡Gracias!</h1>
+                    </div>
+                    <div class="col-12">
+                        <h4>Nos pondremos en contacto contigo a la brevedad.</h4>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center align-items-center py-0 py-lg-4">
+                        <div class="text-center">
+                            <h4>Si deseas comunicarte con nosotros<br> de manera directa puedes <br>
+                                llamarnos al <a href="tel:3331093636">33 3109 3636</a> escribir al<br> <i class="fa-brands fa-whatsapp"></i> <a href="tel3313257156">33 1325 7156</a> o por correo a <br>
+                                <a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry"> hello@blueberry.mx</a>
+                            </h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 px-4 px-sm-5" id="contacto">
+                <form method="POST" action="send_email.php" class="pt-5 form-contacto" onsubmit="miFuncion()">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input required type="text" class="form-control borde-bottom" id="exampleFormControlInput1" name="nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                        <input required type="email" class="form-control borde-bottom" id="exampleFormControlInput1" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
+                        <input required type="text" class="form-control borde-bottom" id="exampleFormControlInput1" name="telefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea required class="form-control borde-bottom" id="exampleFormControlTextarea1" rows="3" name="mensaje"></textarea>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div class="g-recaptcha" data-sitekey="6LdGNygfAAAAAHjcc_-l67r1zAQ86Jf-B7mhlB6t"></div>
+                    </div>
+
+                    <br>
+                    <div class="text-end">
+                        <input type="submit" class="btn btn-light btn-enviar" name="enviar" placeholder="Enviar">
+                    </div>
+
+                </form>
+
+            </div>
+
+            <script>
+                function miFuncion() {
+                    var response = grecaptcha.getResponse();
+
+                    if (response.length == 0) {
+
+                        // window.alert("Favor de llenar el captcha");
+                        Swal.fire({
+                            title: 'Error',
+                            text: 'El campo "No soy un robot" no esta seleccionado',
+                            icon: 'error',
+                            confirmButtonText: 'Ok',
+                            confirmButtonColor: '#000000',
+                        })
+                        event.preventDefault();
+                        // window.history.back();       
+                    } else {
+
+                        document.getElementById('mensaje-agradecimiento').style.display = 'block';
+                        document.getElementById('contacto').style.display = 'none';
+                    }
+                }
+            </script>
+
+        </div>
+    </div>
+    <footer>
+        <div class="container pt-5">
+            <div class="row pt-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                    <h4 class="h6">Dirección</h5>
+                        <h5 class="pt-4 h6">Av. Rubén Darío #586 Col. Prados Providencia <br>
+                            C.P 44670, Guadalajara, Jalisco</h5>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ">
+                    <h4 class="h6">Contacto</h4>
+                    <a href="tel:3331093636">
+                        <h5 class="pt-4 h6">33 31 09 3636</h5>
+                    </a>
+                    <a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry">
+                        <h5 class="h6">hello@blueberry.mx</h5>
+                    </a>
+
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3  pt-5">
+                    <h5 class="h6"><a href="https://blueberry.mx/privacy">Aviso de privacidad</a></h5>
+                    <h5 class="h6"><a href="https://blueberry.mx/terms">Términos y condiciones</a></h5>
+                    <h5 class="h6"><a href="https://blueberry.mx/cookies">Política de Cookies</a></h5>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3  pt-5">
+                    <img src="img/blueberry.gif" alt="MATERIALIZED BY Blueberry" class="img-fluig"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-12 mt-5">
+                    <h4>Siguenos</h4>
+                    <a href="https://www.facebook.com/blueberrymx/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icono-fb-footer.png" alt="Blueberry" class="img-fluid mx-1"/>
+                    </a>
+                    <a href="https://www.instagram.com/blueberrymx_/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icono-ins-footer.png" alt="@blueberrymx_" class="img-fluid mx-1"/>
+                    </a>
+                    <a href="https://www.linkedin.com/company/blueberrymx" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icono-in-footer.png" alt="Blueberry"class="img-fluid mx-1" />
+                    </a>
+                    <a href="https://vimeo.com/blueberrymx" target="_blank" rel="noopener noreferrer">
+                        <img src="img/icono-v-footer.png" alt="Blueberry" class="img-fluid mx-1"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
