@@ -10,6 +10,16 @@
     font-family: 'Prompt-Regular';
     src: url("fonts/Prompt-Regular.ttf");   
 }
+.idiomas{
+    font-family: 'Fira Sans';
+    font-size: 20px;
+}
+.icon-WAPS{
+    max-width: 200px;
+}
+footer{
+    font-family: 'Fira Sans';
+}
 .a_none_style{
     text-decoration: none;
 }
