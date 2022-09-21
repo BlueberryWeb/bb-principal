@@ -64,6 +64,14 @@ input, label{
     max-width: 100px;
     margin-top: -20px;
 }
+#btn-contacto a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+#btn-contacto a:hover{
+    color: #000000;
+}
 #btn-contacto{
     border-color: #fff;
     color: white;
@@ -73,17 +81,9 @@ input, label{
     width: 200px;
     cursor: pointer;
 }
-#btn-contacto a{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-}
 #btn-contacto:hover{
     background-color: #fff;
     border-color: #fff;
-    color: #000000;
-}
-#btn-contacto a:hover{
     color: #000000;
 }
 .btn-menu{
@@ -159,6 +159,22 @@ input, label{
 }
 .ver-mas-portafolio:hover{
     background: none;
+    color: #fff;
+}
+.btn-cel-whats a{
+    color: #fff;
+}
+.btn-cel-whats a:hover{
+    color: #000000;
+}
+.btn-cel-whats{
+    background: transparent;
+    border-color: #fff;
+    font-family: 'Prompt-Regular';
+}
+.btn-cel-whats:hover {
+    background: #fff;
+    border-color: #fff;
     color: #fff;
 }
 /*TERMINAN BOTONES*/
