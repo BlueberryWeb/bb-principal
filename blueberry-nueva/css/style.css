@@ -176,6 +176,60 @@ a:hover, span:hover {
   right: 0;
 }
 
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url("fonts/Poppins-Bold.ttf"); 
+}
+
+@font-face {
+  font-family: 'Poppins ExtraBold';
+  src: url("fonts/Poppins-ExtraBold.ttf"); 
+}
+
+@font-face {
+  font-family: 'Poppins SemiBold';
+  src: url("fonts/Poppins-SemiBold.ttf"); 
+}
+
+@font-face {
+  font-family: 'Poppins Light';
+  src: url("fonts/Poppins-Light.ttf"); 
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url("fonts/Poppins-Medium.ttf"); 
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url("fonts/Poppins-Regular.ttf"); 
+}
+
+.bold{
+  font-family: 'Poppins Bold';
+}
+
+.extraBold{
+  font-family: 'Poppins ExtraBold';
+}
+
+.semiBold{
+  font-family: 'Poppins SemiBold';
+}
+
+.light{
+  font-family: 'Poppins Light';
+}
+
+.medium{
+  font-family: 'Poppins Medium';
+}
+
+.regular{
+  font-family: 'Poppins Regular';
+}
+
 /* ====================== [ End Typography  ] ====================== */
 /* ====================== [ Start Helper Classes  ] ====================== */
 .o-hidden {
@@ -1231,9 +1285,18 @@ body {
   height: 6px;
   z-index: 10000001;
   background-color: #12c2e9;
-  -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  -o-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
-  transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
+  -webkit-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  -o-transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
+  transition: width .3s ease-in-out,
+ height .3s ease-in-out,
+ margin .3s ease-in-out,
+ opacity .3s ease-in-out;
 }
 
 .cursor-inner.cursor-hover {
@@ -3078,9 +3141,12 @@ body {
   color: #fff;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .5s, visibility .5s;
-  -o-transition: opacity .5s, visibility .5s;
-  transition: opacity .5s, visibility .5s;
+  -webkit-transition: opacity .5s,
+ visibility .5s;
+  -o-transition: opacity .5s,
+ visibility .5s;
+  transition: opacity .5s,
+ visibility .5s;
 }
 
 .slider-bus .caption p {
