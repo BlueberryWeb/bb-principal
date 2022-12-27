@@ -1566,7 +1566,7 @@ body {
 .sec-head h6 {
   font-weight: 300;
   font-size: 17px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   letter-spacing: 7px;
   margin-bottom: 10px;
 }
@@ -3192,7 +3192,7 @@ body {
 
 .pages-header {
   min-height: 75vh;
-  padding: 150px 0 0;
+  padding: 0 0 0;
   position: relative;
 }
 
@@ -7754,7 +7754,7 @@ body {
 }
 
 .contact .form input, .contact .form textarea {
-  color: #fff;
+  color: #555555;
   width: 100%;
   padding: 15px 0;
   background: transparent;
