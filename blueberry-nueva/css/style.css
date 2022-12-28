@@ -1120,8 +1120,8 @@ a:hover, span:hover {
 }
 
 .loading span {
-  -webkit-animation: loading 1.4s infinite alternate;
-  animation: loading 1.4s infinite alternate;
+  -webkit-animation: loading 2.4s infinite alternate;
+  animation: loading 2.4s infinite alternate;
 }
 
 .loading span:nth-child(1) {
