@@ -113,9 +113,10 @@ h1, h2, h3, h4, h5, h6 {
 p {
   color: #888;
   font-size: 16px;
-  font-weight: 300;
-  line-height: 2;
+  font-weight: 500;
+  line-height: 1.8;
   margin: 0;
+  opacity: .7;
 }
 
 a, span {
@@ -2007,6 +2008,15 @@ body {
   width: 150px;
 }
 
+.img-soluciones{
+  position: relative;
+}
+
+.txt-soluciones{
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
 .nav-scroll {
   background: #fff;
   border-color: #f5f5f5;
@@ -8004,6 +8014,356 @@ footer .item .copy-right p a {
 }
 
 /* ====================== [ End Footer ] ====================== */
+/* ====================== [ Start serv-block  ] ====================== */
+.serv-block {
+  position: relative;
+}
+
+.serv-block .circle-blur {
+  width: 240px;
+  height: 240px;
+  background: #f45162;
+  -webkit-filter: blur(120px);
+  filter: blur(120px);
+  left: 0;
+  top: 50px;
+  z-index: -1;
+  opacity: .8;
+}
+
+.serv-block .circle-blur.two {
+  left: auto;
+  right: 0;
+  top: auto;
+  bottom: 100px;
+}
+
+.serv-block .content p {
+  font-size: 16px;
+}
+
+.serv-block .content .butn-more {
+  margin-left: 20px;
+}
+
+.serv-block .content .list-feat ul {
+  margin: 0;
+  padding: 0;
+}
+
+.serv-block .content .list-feat li .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background: #f45162;
+  margin-right: 20px;
+}
+
+.serv-block .content .list-feat li .icon svg {
+  width: 10px;
+  fill: #fff;
+  position: relative;
+}
+
+.serv-block .app-sta .item .icon {
+  color: #f45162;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.serv-block .app-sta .item h3 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.accordion.shadwo .item {
+  padding: 17px 25px;
+  border: 1px solid rgba(76, 76, 76, 0.1);
+  border-radius: 7px;
+}
+
+.accordion.shadwo .item .title h6 {
+  font-size: 17px;
+}
+
+.accordion.shadwo .item .title h6 span {
+  font-size: 30px;
+  float: right;
+  position: relative;
+  top: -3px;
+}
+
+.accordion.shadwo .item .accordion-info {
+  margin-top: 20px;
+  display: none;
+}
+
+.accordion.shadwo .item .accordion-info.active {
+  display: block;
+}
+
+.accordion.shadwo .item .accordion-info p {
+  font-size: 15px;
+}
+
+.accordion .item.active {
+  display: block;
+  background: #fff;
+  -webkit-box-shadow: 0px 10px 60px rgba(76, 76, 76, 0.1);
+  box-shadow: 0px 10px 60px rgba(76, 76, 76, 0.1);
+  border-color: transparent;
+}
+
+.circle-blur {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #17c0e9;
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+}
+
+/* ====================== [ end serv-block  ] ====================== */
+/* ====================== [ Start app-services  ] ====================== */
+.app-services .item {
+  padding: 40px;
+  -webkit-box-shadow: 0 10px 50px rgba(76, 76, 76, 0.05);
+  box-shadow: 0 10px 50px rgba(76, 76, 76, 0.05);
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: #fff;
+  position: relative;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  z-index: 3;
+}
+
+.app-services .item:hover {
+  border-color: transparent;
+}
+
+.app-services .item:hover:before {
+  opacity: 1;
+}
+
+.app-services .item:after, .app-services .item:before {
+  content: '';
+  position: absolute;
+  border-radius: 5px;
+  background: #fff;
+  z-index: -1;
+}
+
+.app-services .item:after {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.app-services .item:before {
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#17c0e9), color-stop(#c96ddd), to(#f45162));
+  background-image: -webkit-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
+  background-image: -o-linear-gradient(right, #17c0e9, #c96ddd, #f45162);
+  background-image: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
+  opacity: 0;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.app-services .item .item-tit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app-services .item .item-tit .icon {
+  margin-right: 20px;
+}
+
+.app-services .item .item-tit .icon svg {
+  width: 40px;
+  fill: #f45162;
+}
+
+.app-services .item .item-tit .icon span {
+  font-size: 45px;
+  color: #f45162;
+}
+
+.app-services .item .item-tit .text-tit h5 {
+  font-size: 22px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.app-services .item p {
+  font-size: 14px;
+}
+
+/* ====================== [ End app-services  ] ====================== */
+/* ====================== [ Start app-action  ] ====================== */
+.app-action .box-gr {
+  background-color: #f45162;
+  background-image: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
+  background-image: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
+  background-image: linear-gradient(-35deg, #17c0e9, #c96ddd, #f45162);
+  margin-top: 100px;
+}
+
+.app-action .box-gr .img {
+  position: relative;
+  margin-top: -100px;
+}
+
+.app-action .box-gr .cont {
+  padding: 80px 0;
+  position: relative;
+}
+
+.app-action .box-gr .cont .shape-light {
+  position: absolute;
+  top: 10%;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  pointer-events: none;
+}
+
+.app-action .box-gr .cont .stit span {
+  border-color: #fff;
+}
+
+.app-action .box-gr .cont .stit span:after {
+  background: #fff;
+}
+
+
+.buton.butn-bg-light {
+  background: #fff;
+  color: #0f0f1e;
+}
+
+.buton.butn-bg-light span {
+  color: #0f0f1e;
+}
+
+.buton.butn-bg-light svg {
+  fill: #0f0f1e;
+}
+
+.buton.rounded {
+  border-radius: 30px !important;
+}
+
+.buton {
+  min-width: 220px;
+  text-align: center;
+  padding: 15px 30px;
+  font-weight: 600;
+}
+
+.buton.butn-bord-light {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.buton.butn-bord-light svg {
+  fill: #fff;
+}
+
+/* ====================== [ End app-action  ] ====================== */
+/* ====================== [ Start app-testim  ] ====================== */
+.app-testim .item {
+  padding: 60px;
+  background: #fff;
+  border: 1px solid transparent;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+}
+
+.app-testim .item:hover:after {
+  opacity: 1;
+}
+
+.app-testim .item:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background: #fff;
+  z-index: -1;
+}
+
+.app-testim .item:after {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  background: #f45162;
+  background: -webkit-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
+  background: -o-linear-gradient(125deg, #17c0e9, #c96ddd, #f45162);
+  background: linear-gradient(-35deg, #17c0e9, #c96ddd, #f45162);
+  z-index: -2;
+  opacity: 0;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+}
+
+.app-testim .item .icon img {
+  width: 50px;
+}
+
+.app-testim .item .info {
+  margin-top: 30px;
+}
+
+.app-testim .item .info .img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 15px;
+}
+
+.app-testim .item .info .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.app-testim .item .info .cont span {
+  font-size: 15px;
+  opacity: .4;
+}
+
+.app-testim .item .text p {
+  font-size: 16px;
+}
+
+.bg-gray {
+  background: #f8f9fc;
+}
+
+/* ====================== [ End app-testim  ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
 @media screen and (max-width: 991px) {
   .bg-img {
@@ -8619,6 +8979,10 @@ footer .item .copy-right p a {
   }
   .intro-section .htit {
     margin-bottom: 15px;
+  }
+  .app-action .box-gr .cont {
+    width: 100%;
+    text-align: center;
   }
 }
 
