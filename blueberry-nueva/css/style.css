@@ -67,7 +67,7 @@ body {
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins Regular' !important;
 }
 
 img {
@@ -131,7 +131,7 @@ a:hover, span:hover {
 }
 
 .custom-font {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins ExtraBold';
 }
 
 .color-font {
@@ -989,6 +989,86 @@ a:hover, span:hover {
 
 .pb-100 {
   padding-bottom: 100px !important;
+}
+
+.pb-105{
+  padding-bottom: 105px !important;
+}
+
+.pb-110{
+  padding-bottom: 110px !important;
+}
+
+.pb-115{
+  padding-bottom: 115px !important;
+}
+
+.pb-120{
+  padding-bottom: 120px !important;
+}
+
+.pb-125{
+  padding-bottom: 125px !important;
+}
+
+.pb-130{
+  padding-bottom: 130px !important;
+}
+
+.pb-135{
+  padding-bottom: 135px !important;
+}
+
+.pb-140{
+  padding-bottom: 140px !important;
+}
+
+.pb-145{
+  padding-bottom: 145px !important;
+}
+
+.pb-150{
+  padding-bottom: 150px !important;
+}
+
+.pb-155{
+  padding-bottom: 155px !important;
+}
+
+.pb-160{
+  padding-bottom: 160px !important;
+}
+
+.pb-165{
+  padding-bottom: 165px !important;
+}
+
+.pb-170{
+  padding-bottom: 170px !important;
+}
+
+.pb-175{
+  padding-bottom: 175px !important;
+}
+
+.pb-180{
+  padding-bottom: 180px !important;
+}
+
+.pb-185{
+  padding-bottom: 185px !important;
+}
+
+.pb-190{
+  padding-bottom: 190px !important;
+}
+
+.pb-195{
+  padding-bottom: 195px !important;
+}
+
+.pb-200{
+  padding-bottom: 200px !important;
 }
 
 .no-padding {
@@ -1920,7 +2000,11 @@ body {
 }
 
 .navbar .logo {
-  width: 50px;
+  width: 150px;
+}
+
+.bb-materialized{
+  width: 150px;
 }
 
 .nav-scroll {
@@ -3205,7 +3289,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 70%;
+  height: 100%;
   z-index: -1;
   overflow: hidden;
 }
@@ -6080,7 +6164,7 @@ body {
   transition: all 1.5s;
 }
 
-.skills-box .skill-progress .progres:after {
+/*.skills-box .skill-progress .progres:after {
   content: attr(data-value);
   position: absolute;
   right: 10px;
@@ -6090,9 +6174,9 @@ body {
   background: rgba(0, 0, 0, 0.05);
   font-size: 12px;
   font-weight: 600;
-}
+}*/
 
-.skills-box .skill-progress .progres:before {
+/*.skills-box .skill-progress .progres:before {
   content: '';
   width: 0;
   height: 0;
@@ -6102,7 +6186,7 @@ body {
   position: absolute;
   right: 15px;
   bottom: 12px;
-}
+}*/
 
 /* ====================== [ End progress bar ] ====================== */
 /* ====================== [ Start tabs & list ] ====================== */
@@ -7890,7 +7974,7 @@ footer .item .logo {
 }
 
 footer .item .logo img {
-  width: 50px;
+  width: 150px;
 }
 
 footer .item .social a {
