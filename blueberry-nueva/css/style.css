@@ -136,10 +136,10 @@ a:hover, span:hover {
 }
 
 .color-font {
-  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-gradient(linear, left top, right top, from(#D55FDD), to(#3A86CA));
+  background: -webkit-linear-gradient(left, #D55FDD,  #3A86CA);
+  background: -o-linear-gradient(left, #D55FDD,  #3A86CA);
+  background: linear-gradient(to right, #D55FDD,  #3A86CA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -159,6 +159,10 @@ a:hover, span:hover {
   background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
   background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+.text-white{
+  color: #FFFFFF !important;
 }
 
 .line.top {
@@ -2016,6 +2020,7 @@ body {
   position: absolute;
   top: 0;
   left: 10%;
+  text-align: center;
 }
 .nav-scroll {
   background: #fff;
@@ -8210,6 +8215,26 @@ footer .item .copy-right p a {
   font-size: 14px;
 }
 
+.icono-software{
+  width: 40px;
+}
+
+.icono-alcance{
+  width: 40px;
+}
+
+.icono-construccion{
+  width: 40px;
+}
+
+.icono-esencia{
+  width: 40px;
+}
+
+.icono-desarrollo{
+  width: 40px;
+}
+
 /* ====================== [ End app-services  ] ====================== */
 /* ====================== [ Start app-action  ] ====================== */
 .app-action .box-gr {
@@ -8753,7 +8778,7 @@ footer .item .copy-right p a {
     bottom: 15px;
   }
   .navbar .logo {
-    width: 40px;
+    width: 150px;
   }
   .hamenu .menu-links .main-menu > li {
     font-size: 24px;
