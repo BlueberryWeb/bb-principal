@@ -4882,26 +4882,26 @@ body {
 
 /* ====================== [ End services ] ====================== */
 /* ====================== [ Start brands ] ====================== */
-.clients .brands:hover img {
+/*.clients .brands:hover img {
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
   opacity: 0;
-}
+}*/
 
-.clients .brands:hover .link {
+/*.clients .brands:hover .link {
   opacity: 1 !important;
   -webkit-transition: all 0;
   -o-transition: all 0;
   transition: all 0;
-}
+}*/
 
-.clients .brands:hover .char {
+/*.clients .brands:hover .char {
   -webkit-animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
   animation: fadeInUp 0.3s cubic-bezier(0.3, 0, 0.7, 1) both;
   -webkit-animation-delay: calc(20ms * var(--char-index));
   animation-delay: calc(20ms * var(--char-index));
-}
+}*/
 
 .clients .brands .item {
   text-align: center;
@@ -4925,7 +4925,7 @@ body {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
-  max-width: 75px;
+  max-width: 125px;
   margin: auto;
 }
 
@@ -5002,6 +5002,10 @@ body {
   transition: all .4s;
 }
 
+.sombra{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 30px;
+}
 /* ====================== [ End brands ] ====================== */
 /* ====================== [ Start Work ] ====================== */
 .portfolio {
