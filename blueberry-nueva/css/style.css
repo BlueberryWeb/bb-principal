@@ -4902,10 +4902,16 @@ body {
   -webkit-animation-delay: calc(20ms * var(--char-index));
   animation-delay: calc(20ms * var(--char-index));
 }*/
+.clients .bordes .item{
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  line-height: 160px;
+  height: 160px;
+}
 
 .clients .brands .item {
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.08);
+  /*border: 1px solid rgba(0, 0, 0, 0.08);*/
   height: 160px;
   line-height: 160px;
 }
@@ -8239,6 +8245,17 @@ footer .item .copy-right p a {
   width: 40px;
 }
 
+.icon-comparacion-1{
+  width: 100px !important;
+}
+
+.icon-comparacion-2{
+  width: 150px !important;
+}
+
+.icon-comparacion-3{
+  width: 150px !important;
+}
 /* ====================== [ End app-services  ] ====================== */
 /* ====================== [ Start app-action  ] ====================== */
 .app-action .box-gr {
@@ -8251,7 +8268,8 @@ footer .item .copy-right p a {
 
 .app-action .box-gr .img {
   position: relative;
-  margin-top: -100px;
+  /*margin-top: -100px;*/
+  margin-top: 100px
 }
 
 .app-action .box-gr .cont {
