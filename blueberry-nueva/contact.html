@@ -26,6 +26,7 @@
 
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/css/intlTelInput.css'>
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -85,6 +86,8 @@
     <div class="mouse-cursor cursor-inner"></div>
 
     <!-- ==================== End cursor ==================== -->
+
+    
 
 
 
@@ -148,8 +151,8 @@
                 <div class="col-lg-9 col-md-11">
                     <div class="capt">
                         <div class="text-center">
-                            <h1 class="color-font mb-10 fw-700 semiBold wow fadeInUp">Hablemos <br> sobre tú próximo proyecto.</h1>
-                            <p class="regular wow text" data-splitting>Sientéte libre de hacer cualquier pregunta o hablemos sobre nuestra futura 
+                            <h1 class="color-font mb-10 fw-700 semiBold wow fadeInUp fz-60">Hablemos <br> sobre tú próximo proyecto.</h1>
+                            <p class="regular wow text fz-18" data-splitting>Sientéte libre de hacer cualquier pregunta o hablemos sobre nuestra futura 
                                 colaboración
                             </p>
                         </div>
@@ -179,7 +182,7 @@
                     <div class="col-lg-6">
                         <div class="form md-mb50">
 
-                            <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp">Contáctanos</h4>
+                            <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp fz-40">Contáctanos</h4>
 
                             <form id="contact-form" method="post" action="contact.php">
 
@@ -187,19 +190,21 @@
 
                                 <div class="controls">
 
-                                    <div class="form-group">
-                                        <input id="form_name" type="text" name="name" placeholder="Nombre"
-                                            required="required">
+                                    <div class="form-group mb-40">
+                                        <input id="form_name" type="text" name="name" placeholder="Nombre" required="required">
+                                    </div>
+
+                                    <div class="form-group mb-40">
+                                        <input  placeholder="Teléfono" disabled class="no-bordes"/>
+                                        <input type="tel" name="phone" id="phone" data-error="Please enter a requested format - ex. 888 888-8888" value="" placeholder="">
                                     </div>
 
                                     <div class="form-group">
-                                        <input id="form_email" type="email" name="email" placeholder="Email"
-                                            required="required">
+                                        <input id="form_email" type="email" name="email" placeholder="Email" required="required">
                                     </div>
 
                                     <div class="form-group">
-                                        <textarea id="form_message" name="message" placeholder="Mensaje" rows="4"
-                                            required="required"></textarea>
+                                        <textarea id="form_message" name="message" placeholder="Mensaje" rows="4" required="required"></textarea>
                                     </div>
 
                                     <button type="submit" class="butn dark"><span>Enviar mensaje</span></button>
@@ -209,7 +214,7 @@
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <div class="cont-info">
-                            <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp">Información de contacto</h4>
+                            <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp fz-35">Información de contacto</h4>
                             <h3 class="wow" data-splitting>Hablemos
                             </h3>
                             <div class="item mb-40">
@@ -226,20 +231,23 @@
                                 </h6>
                             </div>
                             <div class="social mt-50">
-                                <a href="#0" class="icon" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
+                                <a href="https://www.facebook.com/profile.php?id=100089242747257" class="icon" target="_blank">
+                                    <i class="fab fa-facebook-f fz-20"></i>
                                 </a>
                                 <a href="https://www.instagram.com/blueberrymx_/" class="icon" target="_blank">
-                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-instagram fz-20"></i>
                                 </a>
                                 <a href="https://www.linkedin.com/company/blueberrymx" class="icon" target="_blank">
-                                    <i class="fab fa-linkedin-in"></i>
+                                    <i class="fab fa-linkedin-in fz-20"></i>
                                 </a>
                                 <a href="#0" target="_blank">
-                                    <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-youtube fz-20"></i>
                                 </a>
                                 <a href="https://vimeo.com/blueberrymx" target="_blank">
-                                    <i class="fab fa-vimeo-v"></i>
+                                    <i class="fab fa-vimeo-v fz-20"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank">
+                                    <img src="img/index/icono-tiktok-black.png" alt="Tik Tok" class="icono-tiktok"/>
                                 </a>
                             </div>
                         </div>
@@ -250,13 +258,6 @@
 
         <!-- ==================== End Contact ==================== -->
 
-
-        <!-- ==================== Start Map ==================== 
-            
-
-        <div class="map" id="ieatmaps"></div>
-
-        <!-- ==================== End Map ==================== -->
 
 
         <!-- ==================== Start Footer ==================== -->
@@ -305,7 +306,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <div class="item md-mb50">
                             <div class="title">
                                 <h5>Legal</h5>
@@ -337,17 +338,18 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-5">
                         <div class="item">
                             <div class="logo">
                                 <img src="img/logo-light.gif" alt="">
                             </div>
                             <div class="social">
-                                <a href="https://www.facebook.com/profile.php?id=100089242747257" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/blueberrymx_/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="#0" target="_blank"><i class="fab fa-youtube"></i></a>
-                                <a href="https://www.linkedin.com/company/blueberrymx" class="icon"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=100089242747257" target="_blank"><i class="fab fa-facebook-f fz-20"></i></a>
+                                <a href="https://www.instagram.com/blueberrymx_/" target="_blank"><i class="fab fa-instagram fz-20"></i></a>
+                                <a href="#0" target="_blank"><i class="fab fa-youtube fz-20"></i></a>
+                                <a href="https://www.linkedin.com/company/blueberrymx" class="icon"><i class="fab fa-linkedin-in fz-20"></i></a>
+                                <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v fz-20"></i></a>
+                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="img/index/icono-tiktok-white.png" alt="Tik Tok" class="icono-tiktok"/></a>
                             </div>
                             
                         </div>
@@ -370,7 +372,11 @@
         </footer>
 
         <!-- ==================== End Footer ==================== -->
-
+        <!-- =========== Start Button WhatsApp ================= -->
+        <a href="https://api.whatsapp.com/send?phone=525540324042" class="btn-flotante-whats" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <!-- =========== End Button WhatsApp =================== -->
 
     </div>
 
@@ -394,9 +400,38 @@
     <!-- Map -->
     <script src="js/map.js"></script>
 
-    <!-- google map api -->
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/js/intlTelInput.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js'></script>
+        <script>
+            /* INITIALIZE PHONE INPUTS WITH THE intlTelInput FEATURE*/
+let input = document.querySelector("#phone");
+
+let iti = intlTelInput(input);
+
+$(window).on("load", function() {
+  
+   intlTelInputGlobals.loadUtils("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/js/utils.js");
+   
+   intlTelInput(input, {
+      initialCountry: "mx",
+      separateDialCode: true,
+      nationalMode: false,
+    });
+
+    let countryData = window.intlTelInputGlobals.getCountryData();
+   
+    console.log(countryData);
+  
+});
+
+$("#phone").focusout( function(e, countryData) {
+  
+  let phone_number = $("#phone").val();
+      phone_number = iti.getNumber(intlTelInputUtils.numberFormat.E164);
+    
+      console.log(phone_number);
+});
         </script>
 
 
