@@ -7887,6 +7887,10 @@ body {
 
 /* ====================== [ End Numbers & Counter  ] ====================== */
 /* ====================== [ Start contact ] ====================== */
+.form-control{
+  border-radius: 0;
+}
+
 .contact-sec .form .form-group {
   margin-bottom: 30px;
 }

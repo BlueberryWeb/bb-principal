@@ -6,13 +6,13 @@
     <!-- Metas -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="keywords" content="HTML5 Template Vie onepage themeforest" />
-    <meta name="description" content="Vie - Onepage Multi-Purpose HTML5 Template" />
+    <meta name="Blueberry | Agencia de Publicidad en Guadalajarawport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="HTML5 Template Blueberry | Agencia de Publicidad en Guadalajara onepage themeforest" />
+    <meta name="description" content="Blueberry | Agencia de Publicidad en Guadalajara - Onepage Multi-Purpose HTML5 Template" />
     <meta name="author" content="" />
 
     <!-- Title  -->
-    <title>Vie</title>
+    <title>Blueberry | Agencia de Publicidad en Guadalajara</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png" />
@@ -71,7 +71,7 @@
     <!-- ==================== Start progress-scroll-button ==================== -
 
     <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <svg class="progress-circle svg-content" width="100%" height="100%" Blueberry | Agencia de Publicidad en GuadalajarawBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
@@ -184,27 +184,32 @@
 
                             <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp fz-40">Contáctanos</h4>
 
-                            <form id="contact-form" method="post" action="contact.php">
-
-                                <div class="messages"></div>
-
+                            <form id="contact-form" method="post" action="" class="needs-validation" novalidate>
                                 <div class="controls">
-
-                                    <div class="form-group mb-40">
-                                        <input id="form_name" type="text" name="name" placeholder="Nombre" required="required">
+                                    <div class=" mb-40">
+                                        <input type="text" class="form-control" placeholder="Nombre" required>
+                                        <div class="invalid-feedback">
+                                            Por favor ingresa un nombre
+                                        </div>
                                     </div>
 
-                                    <div class="form-group mb-40">
+                                    <div class=" mb-40">
                                         <input  placeholder="Teléfono" disabled class="no-bordes"/>
                                         <input type="tel" name="phone" id="phone" data-error="Please enter a requested format - ex. 888 888-8888" value="" placeholder="">
                                     </div>
 
                                     <div class="form-group">
-                                        <input id="form_email" type="email" name="email" placeholder="Email" required="required">
+                                        <input class="form-control"  type="email" name="email" placeholder="Email" required>
+                                        <div class="invalid-feedback">
+                                            Por favor ingresa un email válido
+                                        </div>
                                     </div>
 
                                     <div class="form-group">
-                                        <textarea id="form_message" name="message" placeholder="Mensaje" rows="4" required="required"></textarea>
+                                        <textarea class="form-control" name="message" placeholder="Mensaje" rows="4" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Por favor ingresa un mensaje
+                                        </div>
                                     </div>
 
                                     <button type="submit" class="butn dark"><span>Enviar mensaje</span></button>
@@ -432,6 +437,35 @@ $("#phone").focusout( function(e, countryData) {
     
       console.log(phone_number);
 });
+
+
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+            }
+
+            form.classList.add('was-validated')
+        }, false)
+        })
+    })()
+    const expresiones ={
+        nombre: /^[a-zA-ZÁ-ü\s]{1,49}$/,
+        correo:/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+$/,
+        telefono: /^\d{7,14}$/
+        }
+    
+
         </script>
 
 
