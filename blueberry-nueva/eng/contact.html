@@ -27,9 +27,40 @@
 
     <!-- Plugins -->
     <link rel="stylesheet" href="../css/plugins.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/css/intlTelInput.css'>
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="../css/style.css" />
+    <!-- Messenger Plugin de chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "109035468741342");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 
 </head>
 
@@ -68,10 +99,11 @@
 
 
 
-    <!-- ==================== Start progress-scroll-button ==================== -
+    
+    <!-- ==================== Start progress-scroll-button ==================== -->
 
     <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" Blueberry | Agencia de Publicidad en GuadalajarawBox="-1 -1 102 102">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
         </svg>
     </div>
@@ -129,8 +161,8 @@
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Language</a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="../index2.html">Spanish</a>
-                            <a class="dropdown-item" href="index2.html">English</a>
+                            <a class="dropdown-item" href="../contact.html">Spanish</a>
+                            <a class="dropdown-item" href="contact.html">English</a>
                         </div>
                     </li>
                 </ul>
@@ -149,8 +181,8 @@
                 <div class="col-lg-8 col-md-11">
                     <div class="capt">
                         <div class="text-center">
-                            <h1 class="color-font mb-10 fw-700 semiBold wow fadeInUp">Let's talk <br> about next your project.</h1>
-                            <p class="regular wow text" data-splitting>Feel free to ask me any question or let's do to talk about our future collaboration.
+                            <h1 class="color-font mb-10 fw-700 semiBold wow fadeInUp fz-60">Let's talk <br> about next your project.</h1>
+                            <p class="regular wow text fz-18" data-splitting>Feel free to ask me any question or let's do to talk about our future collaboration.
                             </p>
                         </div>
                     </div>
@@ -179,27 +211,34 @@
                     <div class="col-lg-6">
                         <div class="form md-mb50">
 
-                            <h4 class="fw-700 color-font mb-50 semiBold fadeInUp">Get in touch</h4>
+                            <h4 class="fw-700 color-font mb-50 semiBold fadeInUp fz-35">Get in touch</h4>
 
-                            <form id="contact-form" method="post" action="contact.php">
-
-                                <div class="messages"></div>
-
+                            <form id="contact-form" method="post" action="" class="needs-validation" novalidate>
                                 <div class="controls">
+                                    <div class=" mb-40">
+                                        <input type="text" class="form-control" placeholder="Name" required>
+                                        <div class="invalid-feedback">
+                                            Please enter a name
+                                        </div>
+                                    </div>
 
-                                    <div class="form-group">
-                                        <input id="form_name" type="text" name="name" placeholder="Name"
-                                            required="required">
+                                    <div class=" mb-40">
+                                        <input  placeholder="Phone" disabled class="no-bordes"/>
+                                        <input type="tel" name="phone" id="phone" data-error="Please enter a requested format - ex. 888 888-8888" value="" placeholder="">
                                     </div>
 
                                     <div class="form-group">
-                                        <input id="form_email" type="email" name="email" placeholder="Email"
-                                            required="required">
+                                        <input class="form-control"  type="email" name="email" placeholder="Email" required>
+                                        <div class="invalid-feedback">
+                                            Please enter a valid email
+                                        </div>
                                     </div>
 
                                     <div class="form-group">
-                                        <textarea id="form_message" name="message" placeholder="Message" rows="4"
-                                            required="required"></textarea>
+                                        <textarea class="form-control" name="message" placeholder="Message" rows="4" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Por favor enter a message
+                                        </div>
                                     </div>
 
                                     <button type="submit" class="butn dark"><span>Send message</span></button>
@@ -209,7 +248,7 @@
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <div class="cont-info">
-                            <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp">Info contact</h4>
+                            <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp fz-35">Info contact</h4>
                             <h3 class="wow" data-splitting>Let's talk
                             </h3>
                             <div class="item mb-40">
@@ -226,20 +265,23 @@
                                 </h6>
                             </div>
                             <div class="social mt-50">
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-facebook-f"></i>
+                                <a href="https://www.facebook.com/profile.php?id=100089242747257" class="icon" target="_blank">
+                                    <i class="fab fa-facebook-f fz-20"></i>
                                 </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-twitter"></i>
+                                <a href="https://www.instagram.com/blueberrymx_/" class="icon" target="_blank">
+                                    <i class="fab fa-instagram fz-20"></i>
                                 </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-pinterest"></i>
+                                <a href="https://www.linkedin.com/company/blueberrymx" class="icon" target="_blank">
+                                    <i class="fab fa-linkedin-in fz-20"></i>
                                 </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-behance"></i>
+                                <a href="https://www.youtube.com/channel/UCCSwSHd-JKN08XtD0BQF1gQ" target="_blank">
+                                    <i class="fab fa-youtube fz-20"></i>
                                 </a>
-                                <a href="#0" class="icon">
-                                    <i class="fab fa-linkedin-in"></i>
+                                <a href="https://vimeo.com/blueberrymx" target="_blank">
+                                    <i class="fab fa-vimeo-v fz-20"></i>
+                                </a>
+                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank">
+                                    <img src="../img/index/icono-tiktok-black.png" alt="Tik Tok" class="icono-tiktok"/>
                                 </a>
                             </div>
                         </div>
@@ -251,126 +293,147 @@
         <!-- ==================== End Contact ==================== -->
 
 
-        <!-- ==================== Start Map ==================== 
-            
-
-        <div class="map" id="ieatmaps"></div>
-
-        <!-- ==================== End Map ==================== -->
-
-
         <!-- ==================== Start Footer ==================== -->
 
-        <footer>
-            <div class="container">
-                <div class="row mb-75">
-                    <div class="col-lg-4">
-                        <div class="item md-mb50">
-                            <div class="title">
-                                <h5>Contact Us</h5>
-                            </div>
-                            <ul>
-                                <li>
-                                    <span class="icon pe-7s-map-marker"></span>
-                                    <div class="cont">
-                                        <h6>Visit Us</h6>
-                                        <a href="https://goo.gl/maps/AhgmTgwyNhp2kmwt9" target="_blank">
-                                            <p>Av. Rubén Darío #586, <br/>
-                                                Guadalajara, Jalisco.</p>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="icon pe-7s-mail"></span>
-                                    <div class="cont">
-                                        <h6>Email</h6>
-                                        <a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry">
-                                            <p>hello@blueberry.mx</p>
-                                        </a>
-                                        
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="icon pe-7s-call"></span>
-                                    <div class="cont">
-                                        <h6>Call Us</h6>
-                                        <a href="https://api.whatsapp.com/send?phone=523313257156" target="_blank">
-                                            <p>+52 (33) 1325 7256</p>
-                                        </a> <br/>
-                                        <a href="tel:+523331093636" target="_blank">
-                                            <p>+52 (33) 3109 3636</p>
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
+    <footer>
+        <div class="container">
+            <div class="row mb-100">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <div class="title">
+                            <h5>Contact Us</h5>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="item md-mb50">
-                            <div class="title">
-                                <h5>Legal</h5>
-                            </div>
-                            <ul>
-                                <li>
-                                    <div class="sm-post">
-                                        <a href="terminos.html">
-                                            <p>Terms and conditions</p>
-                                        </a>
-                                        
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sm-post">
-                                        <a href="privacidad.html">
-                                            <p>Privacy notice</p>
-                                        </a>
-                                        
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sm-post">
-                                        <a href="cookies.html">
-                                            <p>Cookies policity</p>
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+                </div>
+                <div class="col-lg-4"></div>
+                
+            </div>
+            <div class="row mb-75">
+                <div class="col-lg-4">
+                    <div class="item">
+                        <ul>
+                            <li>
+                                <span class="icon pe-7s-map-marker"></span>
+                                <div class="cont">
+                                    <h6>Visit Us</h6>
+                                    <a href="https://goo.gl/maps/AhgmTgwyNhp2kmwt9" target="_blank">
+                                        <p>Av. Rubén Darío #586, <br/>
+                                            Guadalajara, Jalisco.</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="item">
-                            <div class="logo">
-                                <img src="../img/logo-light.gif" alt="Blueberry"/>
-                            </div>
-                            <div class="social">
-                                <a href="https://www.facebook.com/profile.php?id=100089242747257" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/blueberrymx_/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="" target="_blank"><i class="fab fa-youtube"></i></a>
-                                <a href="https://www.linkedin.com/company/blueberrymx" class="icon"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v"></i></a>
-                            </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item">
+                        <ul>
+                            <li>
+                                <span class="icon pe-7s-mail"></span>
+                                <div class="cont">
+                                    <h6>Email</h6>
+                                    <a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry">
+                                        <p>hello@blueberry.mx</p>
+                                    </a>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item md-mb50">
+                        <ul>
+                            <li>
+                                <span class="icon pe-7s-call"></span>
+                                <div class="cont">
+                                    <h6>Call Us</h6>
+                                    <a href="https://api.whatsapp.com/send?phone=523313257156" target="_blank">
+                                        <p>+52 (33) 1325 7256</p>
+                                    </a> <br/>
+                                    <a href="tel:+523331093636" target="_blank">
+                                        <p>+52 (33) 3109 3636</p>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="container-fluid no-padding">
+            <img src="../img/bb-footer-verde.png" alt="Blueberry"/>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8">
+                    <div class="d-flex item">
+                        <div class="sm-post padding5">
+                            <a href="terminos.html">
+                                <p class="fz-15">Terms and conditions</p>
+                            </a>
                             
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="copy-right">
-                            <p>© 2023, Blueberry All rights reserved.</p>
+                        <div class="sm-post padding5">
+                            <a href="privacidad.html">
+                                <p class="fz-15">Privacy notice</p>
+                            </a>
+                            
                         </div>
-                    </div>
-                    <div class="col-lg-5"></div>
-                    <div class="col-lg-2">
-                        <div class="justify-content-end">
-                            <img src="../img/materialized-blueberry.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
+                        <div class="sm-post padding5">
+                            <a href="cookies.html">
+                                <p class="fz-15">Cookies policity</p>
+                            </a>
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-2"></div>
+                
             </div>
-        </footer>
+            <div class="row mt-50">
+                <div class="col-lg-3"></div>
+                <div class="col-lg-6">
+                    <div class="item">
+                        <div class="social justify-content-center">
+                            <a href="https://www.facebook.com/profile.php?id=100089242747257" target="_blank"><i class="fab fa-facebook-f fz-18"></i></a>
+                            <a href="https://www.instagram.com/blueberrymx_/" target="_blank"><i class="fab fa-instagram fz-18"></i></a>
+                            <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><i class="fab fa-youtube fz-18"></i></a>
+                            <a href="https://www.linkedin.com/company/blueberrymx" class="icon"><i class="fab fa-linkedin-in fz-18"></i></a>
+                            <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v fz-18"></i></a>
+                            <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="../img/index/icono-tiktok-white.png" alt="Tik Tok" class="icono-tiktok"/></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3"></div>
+                
+            </div>
+            <div class="row mt-20">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="justify-content-center">
+                        <img src="../img/we-materialize.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </footer>
 
-        <!-- ==================== End Footer ==================== -->
+    <!-- ==================== End Footer ==================== -->
 
+    <!-- =========== Start Button WhatsApp ================= -->
+    <div class="cursor-pointer">
+        <a href="https://api.whatsapp.com/send?phone=525540324042" class="btn-flotante-whats" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+    
+    <!-- =========== End Button WhatsApp =================== -->
 
     </div>
 
@@ -390,14 +453,69 @@
 
     <!-- custom scripts -->
     <script src="../js/scripts.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/js/intlTelInput.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js'></script>
 
-    <!-- Map -->
-    <script src="../js/map.js"></script>
+    <script>
+        /* INITIALIZE PHONE INPUTS WITH THE intlTelInput FEATURE*/
+let input = document.querySelector("#phone");
 
-    <!-- google map api -->
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap">
-        </script>
+let iti = intlTelInput(input);
+
+$(window).on("load", function() {
+
+intlTelInputGlobals.loadUtils("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/js/utils.js");
+
+intlTelInput(input, {
+  initialCountry: "mx",
+  separateDialCode: true,
+  nationalMode: false,
+});
+
+let countryData = window.intlTelInputGlobals.getCountryData();
+
+console.log(countryData);
+
+});
+
+$("#phone").focusout( function(e, countryData) {
+
+let phone_number = $("#phone").val();
+  phone_number = iti.getNumber(intlTelInputUtils.numberFormat.E164);
+
+  console.log(phone_number);
+});
+
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+'use strict'
+
+// Fetch all the forms we want to apply custom Bootstrap validation styles to
+var forms = document.querySelectorAll('.needs-validation')
+
+// Loop over them and prevent submission
+Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+    }, false)
+    })
+})()
+const expresiones ={
+    nombre: /^[a-zA-ZÁ-ü\s]{1,49}$/,
+    correo:/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+$/,
+    telefono: /^\d{7,14}$/
+    }
+
+
+    </script>
 
 
 </body>

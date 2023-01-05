@@ -443,6 +443,10 @@ a:hover, span:hover {
   font-size: 12px !important;
 }
 
+.fz-13{
+  font-size: 13px !important;
+}
+
 .fz-14 {
   font-size: 14px !important;
 }
@@ -2049,7 +2053,7 @@ body {
 }
 
 .bb-materialized{
-  width: 150px;
+  width: 350px;
 }
 
 .img-soluciones{
@@ -6889,6 +6893,18 @@ body {
   opacity: 1;
 }
 
+.zoom{
+  transition: transform .4s;
+  
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  opacity: 1;
+  background: transparent;
+}
+
 /* ====================== [ End Testimonials ] ====================== */
 /* ====================== [ Start Blog ] ====================== */
 .blog .item .cont {
@@ -7933,7 +7949,7 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 
 .btn-flotante-whats{
   position: fixed;
-  bottom: 20px;
+  bottom: 120px;
   right: 0;
   transition: all 300ms ease 0ms;
   z-index: 99;
@@ -7943,6 +7959,15 @@ border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   background: transparent;
   border-radius: 100%;
   color: green;
+  display: block;
+}
+
+.btn-flotante-whats::after{
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  left: 0;
+
 }
 .btn-flotante-whats:hover {
   transform: translateY(-7px);
@@ -8111,6 +8136,11 @@ footer .item .copy-right p {
 
 footer .item .copy-right p a {
   color: #12c2e9;
+}
+
+footer .title{
+  align-items: center;
+  text-align: center;
 }
 
 /* ====================== [ End Footer ] ====================== */
@@ -8374,6 +8404,14 @@ footer .item .copy-right p a {
   width: 15px;
 }
 
+.iconos-ch{
+  width: 20px;
+}
+
+.iconos-ch-2{
+  width: 15px;
+}
+
 /* ====================== [ End app-services  ] ====================== */
 /* ====================== [ Start app-action  ] ====================== */
 .app-action .box-gr {
@@ -8440,6 +8478,32 @@ footer .item .copy-right p a {
 .buton.butn-bord-light {
   border: 1px solid #fff;
   color: #fff;
+}
+
+.buton.butn-bord-light:hover{
+  background: #fff;
+  color: #000 !important;
+}
+
+.buton.butn-bord-light:hover span{
+  background: #fff;
+  color: #0a0a0a !important;
+}
+
+.tam-cards-ch{
+  height: 400px;
+}
+
+.tam-cards-gde{
+  height: 1400px;
+}
+
+.tam-cards-ch-2{
+  height: 450px;
+}
+
+.tam-cards-ch-3{
+  height: 350px;
 }
 
 .buton.butn-bord-light svg {
