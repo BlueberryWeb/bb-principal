@@ -212,27 +212,27 @@ a:hover, span:hover {
 }
 
 .bold{
-  font-family: 'Poppins Bold';
+  font-family: 'Poppins Bold' !important;
 }
 
 .extraBold{
-  font-family: 'Poppins ExtraBold';
+  font-family: 'Poppins ExtraBold' !important;
 }
 
 .semiBold{
-  font-family: 'Poppins SemiBold';
+  font-family: 'Poppins SemiBold' !important;
 }
 
 .light{
-  font-family: 'Poppins Light';
+  font-family: 'Poppins Light' !important;
 }
 
 .medium{
-  font-family: 'Poppins Medium';
+  font-family: 'Poppins Medium' !important;
 }
 
 .regular{
-  font-family: 'Poppins Regular';
+  font-family: 'Poppins Regular' !important;
 }
 
 /* ====================== [ End Typography  ] ====================== */
@@ -443,6 +443,10 @@ a:hover, span:hover {
   font-size: 12px !important;
 }
 
+.fz-13{
+  font-size: 13px !important;
+}
+
 .fz-14 {
   font-size: 14px !important;
 }
@@ -475,12 +479,36 @@ a:hover, span:hover {
   font-size: 30px !important;
 }
 
+.fz-35{
+  font-size: 35px !important;
+}
+
 .fz-40 {
   font-size: 40px !important;
 }
 
 .fz-50 {
   font-size: 50px !important;
+}
+
+.fz-60{
+  font-size: 60px !important;
+}
+
+.fz-70{
+  font-size: 70px !important;
+}
+
+.fz-80{
+  font-size: 80px !important;
+}
+
+.fz-90{
+  font-size: 90px !important;
+}
+
+.fz-100{
+  font-size: 100px !important;
 }
 
 /*-------------------------------------------------------
@@ -1074,6 +1102,22 @@ a:hover, span:hover {
 
 .pb-200{
   padding-bottom: 200px !important;
+}
+
+.pb-205{
+  padding-bottom: 205px !important;
+}
+
+.pb-210{
+  padding-bottom: 210px !important;
+}
+
+.pb-215{
+  padding-bottom: 215px !important;
+}
+
+.pb-220{
+  padding-bottom: 220px !important;
 }
 
 .no-padding {
@@ -2009,7 +2053,7 @@ body {
 }
 
 .bb-materialized{
-  width: 150px;
+  width: 350px;
 }
 
 .img-soluciones{
@@ -4767,12 +4811,16 @@ body {
   opacity: 1;
 }
 
+.serv-arch .item:hover .numb {
+  -webkit-text-stroke: 1px #eee;
+}
+
 .serv-arch .item .numb {
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 10px;
   color: transparent;
-  -webkit-text-stroke: 1px #b19777;
+  -webkit-text-stroke: 1px #000;
 }
 
 .serv-arch .item h5 {
@@ -6180,10 +6228,10 @@ body {
   width: 0;
   top: 0;
   left: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#12c2e9), color-stop(#c471ed), to(#f64f59));
-  background: -webkit-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: -o-linear-gradient(left, #12c2e9, #c471ed, #f64f59);
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: -webkit-gradient(linear, left top, right top, from(#D55FDD), to(#3A86CA));
+  background: -webkit-linear-gradient(left, #D55FDD,  #3A86CA);
+  background: -o-linear-gradient(left, #D55FDD,  #3A86CA);
+  background: linear-gradient(to right, #D55FDD,  #3A86CA);
   -webkit-transition: all 1.5s;
   -o-transition: all 1.5s;
   transition: all 1.5s;
@@ -6843,6 +6891,18 @@ body {
 
 .clients-brand .item a:hover {
   opacity: 1;
+}
+
+.zoom{
+  transition: transform .4s;
+  
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  opacity: 1;
+  background: transparent;
 }
 
 /* ====================== [ End Testimonials ] ====================== */
@@ -7843,6 +7903,10 @@ body {
 
 /* ====================== [ End Numbers & Counter  ] ====================== */
 /* ====================== [ Start contact ] ====================== */
+.form-control{
+  border-radius: 0;
+}
+
 .contact-sec .form .form-group {
   margin-bottom: 30px;
 }
@@ -7869,6 +7933,48 @@ body {
   background: transparent;
   border: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#phone {
+width: 560px !important;
+height: 45px;
+background: transparent;
+border: 0;
+border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.intl-tel-input.separate-dial-code .selected-flag{
+  background-color: transparent !important;
+}
+
+.btn-flotante-whats{
+  position: fixed;
+  bottom: 120px;
+  right: 0;
+  transition: all 300ms ease 0ms;
+  z-index: 99;
+  font-size: 50px;
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  border-radius: 100%;
+  color: green;
+  display: block;
+}
+
+.btn-flotante-whats::after{
+  position: absolute;
+  cursor: pointer;
+  display: block;
+  left: 0;
+
+}
+.btn-flotante-whats:hover {
+  transform: translateY(-7px);
+}
+
+.no-bordes{
+  border-bottom: none !important;
 }
 
 .contact .form textarea {
@@ -7918,9 +8024,13 @@ body {
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
 footer {
-  color: #fff;
+  color: #fff !important;
   padding: 100px 0;
   background: #18191d;
+}
+
+footer p{
+  color: #fff !important;
 }
 
 footer.sub-bg {
@@ -8026,6 +8136,11 @@ footer .item .copy-right p {
 
 footer .item .copy-right p a {
   color: #12c2e9;
+}
+
+footer .title{
+  align-items: center;
+  text-align: center;
 }
 
 /* ====================== [ End Footer ] ====================== */
@@ -8249,15 +8364,15 @@ footer .item .copy-right p a {
 }
 
 .icon-comparacion-1{
-  width: 100px !important;
+  width: 150px !important;
 }
 
 .icon-comparacion-2{
-  width: 150px !important;
+  width: 200px !important;
 }
 
 .icon-comparacion-3{
-  width: 150px !important;
+  width: 220px !important;
 }
 
 .img-pilar{
@@ -8279,6 +8394,24 @@ footer .item .copy-right p a {
 .icono-b2b{
   width: 80px;
 }
+
+.icono-compro{
+  width: 70px !important;
+  margin-top: 20px !important;
+}
+
+.icono-tiktok{
+  width: 15px;
+}
+
+.iconos-ch{
+  width: 20px;
+}
+
+.iconos-ch-2{
+  width: 15px;
+}
+
 /* ====================== [ End app-services  ] ====================== */
 /* ====================== [ Start app-action  ] ====================== */
 .app-action .box-gr {
@@ -8345,6 +8478,32 @@ footer .item .copy-right p a {
 .buton.butn-bord-light {
   border: 1px solid #fff;
   color: #fff;
+}
+
+.buton.butn-bord-light:hover{
+  background: #fff;
+  color: #000 !important;
+}
+
+.buton.butn-bord-light:hover span{
+  background: #fff;
+  color: #0a0a0a !important;
+}
+
+.tam-cards-ch{
+  height: 400px;
+}
+
+.tam-cards-gde{
+  height: 1400px;
+}
+
+.tam-cards-ch-2{
+  height: 450px;
+}
+
+.tam-cards-ch-3{
+  height: 350px;
 }
 
 .buton.butn-bord-light svg {

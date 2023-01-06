@@ -4,23 +4,38 @@
 
      <footer>
             <div class="container">
+                <div class="row mb-100">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <div class="text-center">
+                            <div class="title">
+                                <h5>Contact Us</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"></div>
+                    
+                </div>
                 <div class="row mb-75">
                     <div class="col-lg-4">
-                        <div class="item md-mb50">
-                            <div class="title">
-                                <h5>Contáctanos</h5>
-                            </div>
+                        <div class="item">
                             <ul>
                                 <li>
                                     <span class="icon pe-7s-map-marker"></span>
                                     <div class="cont">
-                                        <h6>Visítanos</h6>
+                                        <h6>Visit Us</h6>
                                         <a href="https://goo.gl/maps/AhgmTgwyNhp2kmwt9" target="_blank">
                                             <p>Av. Rubén Darío #586, <br/>
                                                 Guadalajara, Jalisco.</p>
                                         </a>
                                     </div>
                                 </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <ul>
                                 <li>
                                     <span class="icon pe-7s-mail"></span>
                                     <div class="cont">
@@ -31,10 +46,16 @@
                                         
                                     </div>
                                 </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="item md-mb50">
+                            <ul>
                                 <li>
                                     <span class="icon pe-7s-call"></span>
                                     <div class="cont">
-                                        <h6>Llámanos</h6>
+                                        <h6>Call Us</h6>
                                         <a href="https://api.whatsapp.com/send?phone=523313257156" target="_blank">
                                             <p>+52 (33) 1325 7256</p>
                                         </a> <br/>
@@ -46,66 +67,66 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="item md-mb50">
-                            <div class="title">
-                                <h5>Legal</h5>
+                    
+                </div>
+                
+            </div>
+            <div class="container-fluid no-padding">
+                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041263/BlueberryMX/bb-footer-rojo_rjpc57.png" alt="Blueberry"/>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="d-flex item">
+                            <div class="sm-post padding5">
+                                <a href="terminos.html">
+                                    <p class="fz-15">Terms and conditions</p>
+                                </a>
+                                
                             </div>
-                            <ul>
-                                <li>
-                                    <div class="sm-post">
-                                        <a href="terminos.html">
-                                            <p>Términos y condiciones</p>
-                                        </a>
-                                        
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sm-post">
-                                        <a href="privacidad.html">
-                                            <p>Aviso de privacidad</p>
-                                        </a>
-                                        
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="sm-post">
-                                        <a href="cookies.html">
-                                            <p>Política de cookies</p>
-                                        </a>
-                                    </div>
-                                </li>
-                            </ul>
+                            <div class="sm-post padding5">
+                                <a href="privacidad.html">
+                                    <p class="fz-15">Privacy notice</p>
+                                </a>
+                                
+                            </div>
+                            <div class="sm-post padding5">
+                                <a href="cookies.html">
+                                    <p class="fz-15">Cookies policity</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-2"></div>
+                    
+                </div>
+                <div class="row mt-50">
+                    <div class="col-lg-3"></div>
+                    <div class="col-lg-6">
                         <div class="item">
-                            <div class="logo">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696437/BlueberryMX/logo-light_mxvdxk.gif" alt=""/>
-                            </div>
-                            <div class="social">
-                                <a href="https://www.facebook.com/profile.php?id=100089242747257" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.instagram.com/blueberrymx_/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><i class="fab fa-youtube"></i></a>
-                                <a href="https://www.linkedin.com/company/blueberrymx" class="icon"><i class="fab fa-linkedin-in"></i></a>
-                                <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+                            <div class="social justify-content-center">
+                                <a href="https://www.facebook.com/profile.php?id=100089242747257" target="_blank"><i class="fab fa-facebook-f fz-18"></i></a>
+                                <a href="https://www.instagram.com/blueberrymx_/" target="_blank"><i class="fab fa-instagram fz-18"></i></a>
+                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><i class="fab fa-youtube fz-18"></i></a>
+                                <a href="https://www.linkedin.com/company/blueberrymx" class="icon"><i class="fab fa-linkedin-in fz-18"></i></a>
+                                <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v fz-18"></i></a>
+                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041326/BlueberryMX/index/icono-tiktok-white_cfgwcp.png" alt="Tik Tok" class="icono-tiktok"/></a>
                             </div>
                             
                         </div>
                     </div>
+                    <div class="col-lg-3"></div>
+                    
                 </div>
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="copy-right">
-                            <p>© 2023, Blueberry Todos los derechos reservados.</p>
+                <div class="row mt-20">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-4">
+                        <div class="justify-content-center">
+                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041264/BlueberryMX/we-materialize_xkccqt.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
                         </div>
                     </div>
-                    <div class="col-lg-5"></div>
-                    <div class="col-lg-2">
-                        <div class="justify-content-end">
-                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696434/BlueberryMX/materialized-blueberry_elmpcq.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
-                        </div>
-                    </div>
+                    <div class="col-lg-4"></div>
                 </div>
             </div>
         </footer>
