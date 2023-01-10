@@ -69,7 +69,7 @@
                 
             </div>
             <div class="container-fluid no-padding">
-                <img src="../img/bb-footer-rojo.png" alt="Blueberry"/>
+                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041263/BlueberryMX/bb-footer-rojo_rjpc57.png" alt="Blueberry"/>
             </div>
             <div class="container">
                 <div class="row">
@@ -108,7 +108,7 @@
                                 <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><i class="fab fa-youtube fz-18"></i></a>
                                 <a href="https://www.linkedin.com/company/blueberrymx" class="icon"><i class="fab fa-linkedin-in fz-18"></i></a>
                                 <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v fz-18"></i></a>
-                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="../img/index/icono-tiktok-white.png" alt="Tik Tok" class="icono-tiktok"/></a>
+                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041326/BlueberryMX/index/icono-tiktok-white_cfgwcp.png" alt="Tik Tok" class="icono-tiktok"/></a>
                             </div>
                             
                         </div>
@@ -120,7 +120,7 @@
                     <div class="col-lg-4"></div>
                     <div class="col-lg-4">
                         <div class="justify-content-center">
-                            <img src="../img/we-materialize.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
+                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041264/BlueberryMX/we-materialize_xkccqt.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
                         </div>
                     </div>
                     <div class="col-lg-4"></div>

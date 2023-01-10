@@ -10,7 +10,7 @@
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="./assets/images/slide-01-construyendo.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="@/assets/images/slide-01-construyendo.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-10">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="assets/images/slide-02-estetico.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="@/assets/images/slide-02-estetico.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 col-md-9">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="assets/images/slide-03-intuitivo.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="@/assets/images/slide-03-intuitivo.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 col-md-9">
