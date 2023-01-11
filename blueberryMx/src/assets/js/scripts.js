@@ -991,6 +991,61 @@ $('[data-carousel="swiper"]').each(function () {
     };
 });
 
+// FORMULARIO DE CONTACTO
 
+let input = document.querySelector("#phone");
+
+let iti = intlTelInput(input);
+
+$(window).on("load", function() {
+
+intlTelInputGlobals.loadUtils("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/js/utils.js");
+
+intlTelInput(input, {
+initialCountry: "mx",
+separateDialCode: true,
+nationalMode: false,
+});
+
+let countryData = window.intlTelInputGlobals.getCountryData();
+
+console.log(countryData);
+
+});
+
+$("#phone").focusout( function(e, countryData) {
+
+let phone_number = $("#phone").val();
+phone_number = iti.getNumber(intlTelInputUtils.numberFormat.E164);
+
+console.log(phone_number);
+});
+
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+'use strict'
+
+// Fetch all the forms we want to apply custom Bootstrap validation styles to
+var forms = document.querySelectorAll('.needs-validation')
+
+// Loop over them and prevent submission
+Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+    }, false)
+    })
+})()
+const expresiones ={
+    nombre: /^[a-zA-ZÁ-ü\s]{1,49}$/,
+    correo:/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+$/,
+    telefono: /^\d{7,14}$/
+    }
 
 

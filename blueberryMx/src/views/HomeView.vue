@@ -10,7 +10,7 @@
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="@/assets/images/slide-01-construyendo.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="~@/assets/images/slide-01-construyendo.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-10">
