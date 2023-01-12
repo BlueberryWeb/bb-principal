@@ -1,5 +1,5 @@
 <template>
-     <nav class="navbar navbar-expand-lg light">
+    <nav class="navbar navbar-expand-lg light">
         <div class="container">
 
             <!-- Logo -->

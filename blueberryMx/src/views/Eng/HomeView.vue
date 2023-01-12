@@ -130,6 +130,7 @@ import OptimizaView from '../../components/homeComponents/optimizaView.vue';
     TextDinamic: defineAsyncComponent(() => import("../../components/engComponents/homeComponents/textDinamicView.vue")),
     SolutionsView: defineAsyncComponent(() => import("../../components/engComponents/homeComponents/solutionsView.vue")),
     TechnologiesView: defineAsyncComponent(() => import("../../components/engComponents/homeComponents/techonologiesView.vue")),
+    DifferemceView: defineAsyncComponent(() => import("../../components/engComponents/homeComponents/diferenceView.vue")),
     OptimizeView: defineAsyncComponent(() => import("../../components/engComponents/homeComponents/optimizeView.vue")),
     CallToActionView: defineAsyncComponent(() => import("../../components/engComponents/universalComponents/callToActionView.vue")),
     FooterView: defineAsyncComponent(() => import("../../components/engComponents/universalComponents/footerView.vue")),
