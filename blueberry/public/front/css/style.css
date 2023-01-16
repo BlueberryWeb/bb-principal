@@ -2062,7 +2062,7 @@ body {
 
 .txt-soluciones{
   position: absolute;
-  top: 0;
+  top: 5%;
   left: 10%;
   text-align: center;
 }

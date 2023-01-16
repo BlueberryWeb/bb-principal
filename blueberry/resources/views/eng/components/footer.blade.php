@@ -5,7 +5,7 @@
             <div class="col-lg-4">
                 <div class="text-center">
                     <div class="title">
-                        <h5>Contact Us</h5>
+                        <h5 class="fz-50">Contact Us</h5>
                     </div>
                 </div>
             </div>
@@ -19,10 +19,10 @@
                         <li>
                             <span class="icon pe-7s-map-marker"></span>
                             <div class="cont">
-                                <h6>Visit Us</h6>
-                                <a href="https://goo.gl/maps/AhgmTgwyNhp2kmwt9" target="_blank">
-                                    <p>Av. Rubén Darío #586, <br/>
-                                        Guadalajara, Jalisco.</p>
+                                <h6 class="fz-20">Visit Us</h6>
+                                <a href="https://goo.gl/maps/F2yNKD5J9vNuA3xr8" target="_blank">
+                                    <p class="fz-16">Av. Rubén Darío #586, <br/>
+                                        Guadalajara, Jal. Méxíco</p>
                                 </a>
                             </div>
                         </li>
@@ -35,9 +35,9 @@
                         <li>
                             <span class="icon pe-7s-mail"></span>
                             <div class="cont">
-                                <h6>Email</h6>
+                                <h6 class="fz-20">Email</h6>
                                 <a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry">
-                                    <p>hello@blueberry.mx</p>
+                                    <p class="fz-16">hello@blueberry.mx</p>
                                 </a>
                                     
                             </div>
@@ -51,12 +51,12 @@
                         <li>
                             <span class="icon pe-7s-call"></span>
                             <div class="cont">
-                                <h6>Call Us</h6>
+                                <h6 class="fz-20">Call Us</h6>
                                 <a href="https://api.whatsapp.com/send?phone=523313257156" target="_blank">
-                                    <p>+52 (33) 1325 7256</p>
+                                    <p class="fz-16">+52 (33) 1325 7256</p>
                                 </a> <br/>
                                 <a href="tel:+523331093636" target="_blank">
-                                    <p>+52 (33) 3109 3636</p>
+                                    <p class="fz-16">+52 (33) 3109 3636</p>
                                 </a>
                             </div>
                         </li>
@@ -71,7 +71,7 @@
         <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041263/BlueberryMX/bb-footer-rojo_rjpc57.png" alt="Blueberry"/>
     </div>
     <div class="container">
-        <div class="row">
+        <!--<div class="row">
             <div class="col-lg-2"></div>
             <div class="col-lg-8">
                 <div class="d-flex item">
@@ -96,7 +96,7 @@
             </div>
             <div class="col-lg-2"></div>
                 
-        </div>
+        </div>-->
         <div class="row mt-50">
             <div class="col-lg-3"></div>
             <div class="col-lg-6">

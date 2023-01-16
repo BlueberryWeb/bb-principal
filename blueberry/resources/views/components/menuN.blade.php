@@ -15,8 +15,11 @@
         <span>e</span>
         <span>c</span>
         <span>h</span>
+        <span>n</span>
         <span>o</span>
         <span>l</span>
+        <span>o</span>
+        <span>g</span>
         <span>i</span>
         <span>e</span>
         <span>s</span>

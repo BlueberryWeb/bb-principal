@@ -67,7 +67,7 @@
 
                             <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp fz-35">Contáctanos</h4>
 
-                            <form id="contact-form" method="POST" action="{{ route('mail') }} " class="needs-validation" novalidate>
+                            <form id="contact-form" method="POST" action="{{ route('mail') }} " class="needs-validation fz-16" novalidate>
                                 @csrf
                                 <div class="controls">
                                     <div class=" mb-40">
@@ -96,7 +96,7 @@
                                         </div>
                                     </div>
 
-                                    <button type="submit" class="butn dark"><span>Enviar mensaje</span></button>
+                                    <button type="submit" class="butn dark fz-16"><span>Enviar mensaje</span></button>
                                 </div>
                             </form>
                         </div>
@@ -104,20 +104,23 @@
                     <div class="col-lg-5 offset-lg-1">
                         <div class="cont-info">
                             <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp fz-35">Información de contacto</h4>
-                            <h3 class="wow" data-splitting>Hablemos
+                            <h3 class="wow fz-30" data-splitting>Hablemos
                             </h3>
                             <div class="item mb-40">
-                                <h5><a href="#0">hello@blueberry.mx</a></h5>
-                                <h5>+52 (33) 1325 7256</h5>
-                                <h5>+52 (33) 3109 3636</h5>
+                                <h5><a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry" target="_blank">hello@blueberry.mx</a></h5>
+                                <h5 class="fz-16"><a href="https://api.whatsapp.com/send?phone=523313257156" target="_blank">+52 (33) 1325 7256</a> </h5>
+                                <h5 class="fz-16"><a href="tel:+523331093636" target="_blank">+52 (33) 3109 3636</a> </h5>
 
                             </div>
-                            <h3 class="wow" data-splitting>Visítanos
+                            <h3 class="wow fz-30" data-splitting>Visítanos
                             </h3>
                             <div class="item">
-                                <h6>Av. Rubén Darío #586,
-                                    <br>Guadalajara, Jal.
-                                </h6>
+                                <a href="https://goo.gl/maps/F2yNKD5J9vNuA3xr8" target="_blank">
+                                    <h6 class="fz-16">Av. Rubén Darío #586,
+                                        <br>Guadalajara, Jal. México
+                                    </h6>
+                                </a>
+                                
                             </div>
                             <div class="social mt-50">
                                 <a href="https://www.facebook.com/profile.php?id=100089242747257" class="icon" target="_blank">
