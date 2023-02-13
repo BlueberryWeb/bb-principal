@@ -58,7 +58,7 @@
 
             <!-- Logo -->
             <a class="logo" href="{{ route('home')}}">
-                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696437/BlueberryMX/logo-light_mxvdxk.gif" alt="logo"/>
+                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/logo-light_uijolx.gif" alt="logo"/>
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

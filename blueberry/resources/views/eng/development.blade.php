@@ -11,7 +11,7 @@
     <title>Blueberry | Software company in Mexico </title>
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696440/BlueberryMX/favicon_rvg88e.png" />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
     
     <!-- Plugins -->
     <link rel="stylesheet" href="{{ asset('front/css/plugins.css') }}" />
@@ -54,7 +54,7 @@
                         <div class="item mb-40 wow fadeIn tam-cards-ch-2" data-wow-delay=".3s">
                             <div class="item-tit mb-15">
                                 <div class="icon">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696406/BlueberryMX/desarrolloWeb/icono-diseno_wucxxt.png" alt=""/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-diseno_hrawhx.png" alt=""/>
                                 </div>
                                 <div class="text-tit">
                                     <h5 class="semiBold">Website Design</h5>
@@ -73,7 +73,7 @@
                         <div class="item tam-cards-ch-2 wow fadeIn" data-wow-delay=".6s">
                             <div class="item-tit mb-15">
                                 <div class="icon">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696406/BlueberryMX/desarrolloWeb/icono-centrada_ac4qng.png" alt=""/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-centrada_k3d6ix.png" alt=""/>
                                 </div>
                                 <div class="text-tit">
                                     <h5 class="semiBold">User focused</h5>
@@ -90,7 +90,7 @@
                         <div class="item mb-30 pb-165 wow fadeIn" data-wow-delay=".9s">
                             <div class="item-tit mb-15">
                                 <div class="icon">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696407/BlueberryMX/desarrolloWeb/icono-interfaz_grkfyi.png" alt=""/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-interfaz_i8thi7.png" alt=""/>
                                 </div>
                                 <div class="text-tit">
                                     <h5 class="semiBold">User interface</h5>
@@ -108,7 +108,7 @@
                         <div class="item sm-mb50 tam-cards-ch-2 wow fadeIn" data-wow-delay=".3s">
                             <div class="item-tit mb-15">
                                 <div class="icon">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696406/BlueberryMX/desarrolloWeb/icono-experiencia_tp4ebg.png" alt=""/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-experiencia_sdufiw.png" alt=""/>
                                 </div>
                                 <div class="text-tit">
                                     <h5 class="semiBold">User Experience</h5>
@@ -124,7 +124,7 @@
                         <div class="item sm-mb50 tam-cards-ch-2 wow fadeIn" data-wow-delay=".6s">
                             <div class="item-tit mb-15">
                                 <div class="icon">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696407/BlueberryMX/desarrolloWeb/icono-pruebas_kt9u5k.png" alt=""/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-pruebas_bk6qg5.png" alt=""/>
                                 </div>
                                 <div class="text-tit">
                                     <h5 class="semiBold">Testing</h5>
@@ -142,7 +142,7 @@
                         <div class="item wow fadeIn tam-cards-ch-2" data-wow-delay=".9s">
                             <div class="item-tit mb-15">
                                 <div class="icon">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696406/BlueberryMX/desarrolloWeb/icono-comprobacion_pns4jw.png" alt=""/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-comprobacion_xl4lym.png" alt=""/>
                                 </div>
                                 <div class="text-tit">
                                     <h5 class="semiBold">Performance Checks</h5>
@@ -181,7 +181,7 @@
                                 <div class="swiper-slide ">
                                     <div class="item wow fadeIn tam-cards-gde" data-wow-delay=".3s">
                                         <div class="icon mb-50">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696406/BlueberryMX/desarrolloWeb/desarrollo-web_edzrp6.png" alt="" class="mb-15 icon-comparacion-1"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/desarrollo-web_azxgyo.png" alt="" class="mb-15 icon-comparacion-1"/>
                                             <h6 class="">Web Development</h6>
     
                                         </div>
@@ -190,27 +190,27 @@
                                                 1-7 sections
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-SEO_srumns.png" alt="SEO" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-SEO_hlp8uf.png" alt="SEO" class="iconos-ch"/> <br/>
                                                 Highly effective SEO
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-certificado_gipapq.png" alt="SSL" class="iconos-ch-2"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-certificado_s7izyd.png" alt="SSL" class="iconos-ch-2"/> <br/>
                                                 SSL Certificate 
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-ciberseguridad_l4lvb0.png" alt="ciberseguridad" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-ciberseguridad_cyc6tl.png" alt="ciberseguridad" class="iconos-ch"/> <br/>
                                                 Programming with cibersecurity 
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-codigo_thmugm.png" alt="Código" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-codigo_uxf7pt.png" alt="Código" class="iconos-ch"/> <br/>
                                                 Code based on good practices
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-contenido_wv9lqc.png" alt="Contenido audivisual" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-contenido_v7yr17.png" alt="Contenido audivisual" class="iconos-ch"/> <br/>
                                                 Audiovisual content
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-formulario_mp6ueu.png" alt="Formulario" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-formulario_hkpjxb.png" alt="Formulario" class="iconos-ch"/> <br/>
                                                 Contact form
                                             </p>
                                         </div>
@@ -219,7 +219,7 @@
                                 <div class="swiper-slide mb-100">
                                     <div class="item wow fadeIn tam-cards-gde" data-wow-delay=".6s">
                                         <div class="icon mb-50">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696407/BlueberryMX/desarrolloWeb/plataforma-web_rgn5g7.png" alt="" class="mb-15 icon-comparacion-2"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/plataforma-web_nphlu6.png" alt="" class="mb-15 icon-comparacion-2"/>
                                             <h6 class="">Web platform</h6>
                                         </div>
                                         <div class="text mb-30">
@@ -227,47 +227,47 @@
                                                 1-7 sections
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-SEO_srumns.png" alt="SEO" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-SEO_hlp8uf.png" alt="SEO" class="iconos-ch"/> <br/>
                                                 Highly effective SEO
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-certificado_gipapq.png" alt="SSL" class="iconos-ch-2"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-certificado_s7izyd.png" alt="SSL" class="iconos-ch-2"/> <br/>
                                                 SSL Certificate 
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-ciberseguridad_l4lvb0.png" alt="ciberseguridad" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-ciberseguridad_cyc6tl.png" alt="ciberseguridad" class="iconos-ch"/> <br/>
                                                 Programming with cibersecurity 
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-codigo_thmugm.png" alt="Código" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-codigo_uxf7pt.png" alt="Código" class="iconos-ch"/> <br/>
                                                 Code based on good practices
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-contenido_wv9lqc.png" alt="Contenido audivisual" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-contenido_v7yr17.png" alt="Contenido audivisual" class="iconos-ch"/> <br/>
                                                 Audiovisual content
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-formulario_mp6ueu.png" alt="Formulario" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-formulario_hkpjxb.png" alt="Formulario" class="iconos-ch"/> <br/>
                                                 Contact form
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-back-admin_jixenv.png" alt="Back admin" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-back-admin_oeru4w.png" alt="Back admin" class="iconos-ch"/> <br/>
                                                 Back admin
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-autoadmin_h5ctlz.png" alt="Contenido autoadministrable" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-autoadmin_ebny6p.png" alt="Contenido autoadministrable" class="iconos-ch"/> <br/>
                                                 Self administered content
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-gestion_yrlza7.png" alt="Gestión" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785609/desarrolloWeb/icono-gestion_nv5jhp.png" alt="Gestión" class="iconos-ch"/> <br/>
                                                 Information management and protection
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286543/BlueberryMX/desarrolloWeb/icono-diseno-black_isqhhl.png" alt="Diseño" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-diseno-black_b9ibhi.png" alt="Diseño" class="iconos-ch"/> <br/>
                                                 Scalable design for information management
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-encriptacion_tvuwkg.png" alt="Encriptación" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-encriptacion_uznli1.png" alt="Encriptación" class="iconos-ch"/> <br/>
                                                 Encryption of sensible information
                                             </p>
                                         </div>
@@ -276,7 +276,7 @@
                                 <div class="swiper-slide">
                                     <div class="item wow fadeIn tam-cards-gde" data-wow-delay=".9s">
                                         <div class="icon mb-50">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696406/BlueberryMX/desarrolloWeb/e-commerce_ppjcpx.png" alt="" class="mb-15 icon-comparacion-3"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/e-commerce_l493ry.png" alt="" class="mb-15 icon-comparacion-3"/>
                                             <h6 class="">E-commerce</h6>
                                         </div>
                                         <div class="text">
@@ -284,55 +284,55 @@
                                                 1-7 sections
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-SEO_srumns.png" alt="SEO" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-SEO_hlp8uf.png" alt="SEO" class="iconos-ch"/> <br/>
                                                 Highly effective SEO
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-certificado_gipapq.png" alt="SSL" class="iconos-ch-2"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-certificado_s7izyd.png" alt="SSL" class="iconos-ch-2"/> <br/>
                                                 SSL Certificate 
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-ciberseguridad_l4lvb0.png" alt="ciberseguridad" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-ciberseguridad_cyc6tl.png" alt="ciberseguridad" class="iconos-ch"/> <br/>
                                                 Programming with cibersecurity 
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-codigo_thmugm.png" alt="Código" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-codigo_uxf7pt.png" alt="Código" class="iconos-ch"/> <br/>
                                                 Code based on good practices
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-contenido_wv9lqc.png" alt="Contenido audivisual" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-contenido_v7yr17.png" alt="Contenido audivisual" class="iconos-ch"/> <br/>
                                                 Audiovisual content
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-formulario_mp6ueu.png" alt="Formulario" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785608/desarrolloWeb/icono-formulario_hkpjxb.png" alt="Formulario" class="iconos-ch"/> <br/>
                                                 Contact form
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-back-admin_jixenv.png" alt="Back admin" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-back-admin_oeru4w.png" alt="Back admin" class="iconos-ch"/> <br/>
                                                 Back admin
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-autoadmin_h5ctlz.png" alt="Contenido autoadministrable" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-autoadmin_ebny6p.png" alt="Contenido autoadministrable" class="iconos-ch"/> <br/>
                                                 Self administered content
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-gestion_yrlza7.png" alt="Gestión" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785609/desarrolloWeb/icono-gestion_nv5jhp.png" alt="Gestión" class="iconos-ch"/> <br/>
                                                 Information management and protection
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286543/BlueberryMX/desarrolloWeb/icono-diseno-black_isqhhl.png" alt="Diseño" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-diseno-black_b9ibhi.png" alt="Diseño" class="iconos-ch"/> <br/>
                                                 Scalable design for information management
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-encriptacion_tvuwkg.png" alt="Encriptación" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-encriptacion_uznli1.png" alt="Encriptación" class="iconos-ch"/> <br/>
                                                 Encryption of sensible information
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673286553/BlueberryMX/desarrolloWeb/icono-infraestructura_qfhdgp.png" alt="Infraestructura" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785609/desarrolloWeb/icono-infraestructura_ykvcp3.png" alt="Infraestructura" class="iconos-ch"/> <br/>
                                                 Payment infrastructure
                                             </p>
                                             <p class="mb-10">
-                                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696406/BlueberryMX/desarrolloWeb/icono-comprobacion_pns4jw.png" alt="Pagos" class="iconos-ch"/> <br/>
+                                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785607/desarrolloWeb/icono-comprobacion_xl4lym.png" alt="Pagos" class="iconos-ch"/> <br/>
                                                 Secure handling of online payments
                                             </p>
                                         </div>

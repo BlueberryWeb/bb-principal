@@ -3522,7 +3522,7 @@ body {
 .circle-bg .gradient-circle.two {
   left: auto;
   top: -250px;
-  right: -250px;
+  right: 0;
   bottom: auto;
   background-image: -webkit-linear-gradient(45deg, #fb5343, #6549d5);
   background-image: -o-linear-gradient(45deg, #fb5343, #6549d5);
@@ -9416,6 +9416,20 @@ footer .title{
     display: inline-block;
     color: #fff;
     -webkit-text-stroke: 0px #fff;
+  }
+  .fz-70{
+    font-size: 17px !important;
+  }
+  .txt-soluciones{
+    top: 0;
+  }
+  .fz-25{
+    font-size: 20px !important;
+  }
+  .loading{
+    font-size: 12px;
+    left: 46%;
+    letter-spacing: 0px;
   }
 }
 

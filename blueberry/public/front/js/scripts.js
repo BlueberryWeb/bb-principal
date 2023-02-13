@@ -40,12 +40,12 @@ $(function () {
         if (bodyScroll > 300) {
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696431/BlueberryMX/logo-dark_afakee.gif');
+            logo.attr('src', 'https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/logo-dark_d7hqda.gif');
 
         } else {
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696437/BlueberryMX/logo-light_mxvdxk.gif');
+            logo.attr('src', 'https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/logo-light_uijolx.gif');
         }
     });
 
@@ -93,7 +93,7 @@ $(function () {
             $('.topnav .menu-icon .text').addClass('open');
 
             navDark.addClass("navlit");
-            logoChan.attr('src', 'https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696437/BlueberryMX/logo-light_mxvdxk.gif');
+            logoChan.attr('src', 'https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/logo-light_uijolx.gif');
 
             window.addEventListener('scroll', noScroll);
 
@@ -104,7 +104,7 @@ $(function () {
             $('.topnav .menu-icon .text').removeClass('open');
 
             navDark.removeClass("navlit");
-            logoChan.attr('src', 'https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696431/BlueberryMX/logo-dark_afakee.gif');
+            logoChan.attr('src', 'https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/logo-dark_d7hqda.gif');
 
             window.removeEventListener('scroll', noScroll);
         }

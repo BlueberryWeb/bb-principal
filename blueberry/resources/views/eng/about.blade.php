@@ -11,7 +11,7 @@
     <title>Blueberry | Software company in Mexico </title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696440/BlueberryMX/favicon_rvg88e.png" />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
 
     <!-- Plugins -->
     <link rel="stylesheet" href="{{ asset('front/css/plugins.css') }}" />
@@ -59,7 +59,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="img wow fadeInUp">
-                        <img class="thumparallax-down" src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696386/BlueberryMX/nosotros/contact-03_ih8mmq.jpg" alt=""/>
+                        <img class="thumparallax-down" src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785614/nosotros/contact-03_ux9kzp.jpg" alt=""/>
                     </div>
                 </div>
                 <div class="col-lg-6 valign">
@@ -160,7 +160,7 @@
         <div class="container-fluid">
             <div class="row justify-content-center">
 
-                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696384/BlueberryMX/nosotros/bb_01_l3apfi.jpg" data-wow-delay=".2s">
+                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785610/nosotros/bb_01_yqqnng.jpg" data-wow-delay=".2s">
                     <h6 class="numb">01</h6>
                     <h5>Source Code Ownership</h5>
                     <p>
@@ -169,14 +169,14 @@
                     </p>
                 </div>
 
-                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696384/BlueberryMX/nosotros/bb_02_i7mk0p.jpg" data-wow-delay=".4s">
+                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785610/nosotros/bb_02_phbut9.jpg" data-wow-delay=".4s">
                     <h6 class="numb">02</h6>
                     <h5>No 3rd Parties</h5>
                     <p>We keep everything in-house. This allows us to ensure high-quality and on-time projects.
                     </p>
                 </div>
 
-                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696383/BlueberryMX/nosotros/bb_03_xyfpi9.jpg" data-wow-delay=".6s">
+                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785610/nosotros/bb_03_d1gs9p.jpg" data-wow-delay=".6s">
                     <h6 class="numb">03</h6>
                     <h5>Transparency</h5>
                     <p>Our company is built on long-term partnerships. We do this through our commitment to 
@@ -184,13 +184,13 @@
                     </p>
                 </div>
 
-                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696383/BlueberryMX/nosotros/bb_04_yyqkf4.jpg" data-wow-delay=".8s">
+                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785612/nosotros/bb_04_sscaj3.jpg" data-wow-delay=".8s">
                     <h6 class="numb">04</h6>
                     <h5>Design is in our DNA.</h5>
                     <p>Our proud design heritage continues today, touching the very heart of everything we do.</p>
                 </div>
 
-                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696384/BlueberryMX/nosotros/bb_05_aumhf5.jpg" data-wow-delay="1s">
+                <div class="col-lg col-md-6 item bg-img wow fadeInUp" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785611/nosotros/bb_05_gfqwce.jpg" data-wow-delay="1s">
                     <h6 class="numb">05</h6>
                     <h5>Reaching your needs</h5>
                     <p>We look forward to delivering high-quality results that meet, not just the requirements of our clients, 

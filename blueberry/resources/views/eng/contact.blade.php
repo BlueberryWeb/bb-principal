@@ -11,7 +11,7 @@
      <title>Blueberry | Software company in Mexico </title>
  
      <!-- Favicon -->
-     <link rel="shortcut icon" href="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696440/BlueberryMX/favicon_rvg88e.png" />
+     <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
  
      <!-- Plugins -->
      <link rel="stylesheet" href="{{ asset('front/css/plugins.css') }}" />
@@ -161,7 +161,7 @@
                                     <i class="fab fa-vimeo-v fz-20"></i>
                                 </a>
                                 <a href="https://www.tiktok.com/@blueberrymx1" target="_blank">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041325/BlueberryMX/index/icono-tiktok-black_ms7ynb.png" alt="Tik Tok" class="icono-tiktok"/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/icono-tiktok-black_bofuvc.png" alt="Tik Tok" class="icono-tiktok"/>
                                 </a>
                             </div>
                         </div>

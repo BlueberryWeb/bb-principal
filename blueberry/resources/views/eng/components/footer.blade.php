@@ -68,7 +68,21 @@
             
     </div>
     <div class="container-fluid no-padding">
-        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041263/BlueberryMX/bb-footer-rojo_rjpc57.png" alt="Blueberry"/>
+        @php
+        $url= $_SERVER["REQUEST_URI"];
+        
+        @endphp
+        @if ($url === '/home')
+            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785641/bb-footer-rojo_ywt6ut.png" alt="Blueberry"/>                
+        @elseif ($url == '/about')
+            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-verde_oc8wpc.png" alt="Blueberry"/>
+        @elseif ($url == '/development')
+            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-morado_m0ye2v.png" alt="desarrollo"/>
+        @elseif ($url == '/ecommerceEng')
+            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-azul_algn6r.png" alt="Blueberry"/>
+        @elseif ($url == '/contact')
+            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-naranja_c0yty6.png" alt="Blueberry"/>
+        @endif
     </div>
     <div class="container">
         <!--<div class="row">
@@ -107,7 +121,7 @@
                         <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><i class="fab fa-youtube fz-18"></i></a>
                         <a href="https://www.linkedin.com/company/blueberrymx" class="icon"><i class="fab fa-linkedin-in fz-18"></i></a>
                         <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v fz-18"></i></a>
-                        <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041326/BlueberryMX/index/icono-tiktok-white_cfgwcp.png" alt="Tik Tok" class="icono-tiktok"/></a>
+                        <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/icono-tiktok-white_rhipzq.png" alt="Tik Tok" class="icono-tiktok"/></a>
                     </div>
                         
                 </div>
@@ -119,7 +133,7 @@
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
                 <div class="justify-content-center">
-                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041264/BlueberryMX/we-materialize_xkccqt.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
+                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/we-materialize_xwuusu.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
                 </div>
             </div>
             <div class="col-lg-4"></div>

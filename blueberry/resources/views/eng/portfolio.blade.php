@@ -11,7 +11,7 @@
     <title>Blueberry | Agencia de publicidad </title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696440/BlueberryMX/favicon_rvg88e.png" />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
 
     <!-- Plugins -->
     <link rel="stylesheet" href="{{ asset('front/css/plugins.css') }}" />
@@ -34,7 +34,7 @@
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673537723/BlueberryMX/portafolio/amti_ewpf7w.jpg" data-overlay-dark="4">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785619/portafolio/amti_vlzj6t.jpg" data-overlay-dark="4">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673537719/BlueberryMX/portafolio/hyra_q9qpzp.jpg" data-overlay-dark="4">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785619/portafolio/hyra_navabj.jpg" data-overlay-dark="4">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673537723/BlueberryMX/portafolio/percapita_vkqcmq.jpg" data-overlay-dark="4">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785618/portafolio/percapita_sgrxcg.jpg" data-overlay-dark="4">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673537724/BlueberryMX/portafolio/jeanswest_w4b5oz.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785623/portafolio/jeanswest_s1ov9c.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -118,7 +118,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673537723/BlueberryMX/portafolio/parvati_b1phrf.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785620/portafolio/parvati_dggnhk.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -139,7 +139,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673537722/BlueberryMX/portafolio/hispanocash_ul16gz.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785618/portafolio/hispanocash_wueg1u.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -160,7 +160,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673537627/BlueberryMX/portafolio/beirat-portfolio_zqn2ts.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785668/beirat-portfolio_wlggyo.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">

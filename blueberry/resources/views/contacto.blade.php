@@ -10,7 +10,7 @@
     <title>Blueberry | Agencia de publicidad </title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696440/BlueberryMX/favicon_rvg88e.png" />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
 
     <!-- Plugins -->
     <link rel="stylesheet" href="{{ asset('front/css/plugins.css') }}" />
@@ -139,7 +139,7 @@
                                     <i class="fab fa-vimeo-v fz-20"></i>
                                 </a>
                                 <a href="https://www.tiktok.com/@blueberrymx1" target="_blank">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041325/BlueberryMX/index/icono-tiktok-black_ms7ynb.png" alt="Tik Tok" class="icono-tiktok"/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/icono-tiktok-black_bofuvc.png" alt="Tik Tok" class="icono-tiktok"/>
                                 </a>
                             </div>
                         </div>
@@ -161,17 +161,17 @@
 
     <!-- ==================== End Footer ==================== -->
 
-        <!-- =========== Start Button WhatsApp ================= -->
-        <div class="cursor-pointer">
-            <a href="https://api.whatsapp.com/send?phone=525540324042" class="btn-flotante-whats" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-        </div>
         
-        <!-- =========== End Button WhatsApp =================== -->
 
     </div>
+<!-- =========== Start Button WhatsApp ================= -->
+<div class=" cursor-pointer">
+    <a href="https://api.whatsapp.com/send?phone=525540324042" class="btn-flotante-whats" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
 
+<!-- =========== End Button WhatsApp =================== -->
     <!-- ==================== End main-content ==================== -->
     @include('components.scripts')
 

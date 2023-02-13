@@ -1,4 +1,4 @@
-<section class="call-action section-padding sub-bg bg-img" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673043014/BlueberryMX/index/patrn_ihmfit.svg">
+<section class="call-action section-padding sub-bg bg-img" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675789005/index/patrn_y5ylgt.svg">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-lg-9">

@@ -11,7 +11,7 @@
     <title>Blueberry | Software company in Mexico </title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696440/BlueberryMX/favicon_rvg88e.png" />
+    <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
 
     <!-- Plugins -->
     <link rel="stylesheet" href="{{ asset('front/css/plugins.css') }}" />
@@ -47,7 +47,7 @@
                     <div class="col-lg-3 col-md-6 items md-mb30">
                         <div class="item wow fadeIn" data-wow-delay=".3s">
                             <span class="icon">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696363/BlueberryMX/ecommerce/icono-calidad_btmi0d.png" alt="" class="icono-calidad"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785626/ecommerce/icono-calidad_oqodx5.png" alt="" class="icono-calidad"/>
                             </span>
                             <h5>Quality and security</h5>
                             <p>We work in compliant with ISO 9001 quality management and information security management standards.</p>
@@ -56,7 +56,7 @@
                     <div class="col-lg-3 col-md-6 items active md-mb30">
                         <div class="item wow fadeIn" data-wow-delay=".6s">
                             <span class="icon">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696363/BlueberryMX/ecommerce/icono-creatividad_xo5xej.png" alt="" class="icono-creatividad"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785626/ecommerce/icono-creatividad_saxwnb.png" alt="" class="icono-creatividad"/>
                             </span>
                             <h5>Web creativity</h5>
                             <p> We asses projects and decide the best ideas to bring your desired website to life.</p>
@@ -65,7 +65,7 @@
                     <div class="col-lg-3 col-md-6 items sm-mb30">
                         <div class="item wow fadeIn" data-wow-delay=".8s">
                             <span class="icon">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696364/BlueberryMX/ecommerce/icono-desarrollo_m36onp.png" alt="" class="icono-desarrollo-full"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785626/ecommerce/icono-desarrollo_rspk5s.png" alt="" class="icono-desarrollo-full"/>
                             </span>
                             <h5>Full-stack Development </h5>
                             <p>We develop your project from beginning to end, relying on highly safe technological resources.</p>
@@ -74,7 +74,7 @@
                     <div class="col-lg-3 col-md-6 items">
                         <div class="item wow fadeIn" data-wow-delay="1s">
                             <span class="icon">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696364/BlueberryMX/ecommerce/icono-b2b_d9oxle.png" alt="" class="icono-b2b"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785626/ecommerce/icono-b2b_euklb9.png" alt="" class="icono-b2b"/>
                             </span>
                             <h5>B2b y B2c</h5>
                             <p>
@@ -97,7 +97,7 @@
                 <div class="row">
                     <div class="col-lg-5">
                         <div class="serv-img md-mb50">
-                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696364/BlueberryMX/ecommerce/icono-pilar_rif8ba.png" alt="" class="img-pilar"/>
+                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785626/ecommerce/icono-pilar_wdjgvz.png" alt="" class="img-pilar"/>
                         </div>
                     </div>
                     <div class="col-lg-6 offset-lg-1 valign">

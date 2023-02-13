@@ -60,7 +60,7 @@
 
             <!-- Logo -->
             <a class="logo" href="{{ url('/') }}">
-                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696431/BlueberryMX/logo-dark_afakee.gif" alt="logo"/>
+                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/logo-dark_d7hqda.gif" alt="logo"/>
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

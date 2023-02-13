@@ -13,7 +13,7 @@
      <title>Blueberry | Software company in Mexico </title>
  
      <!-- Favicon -->
-     <link rel="shortcut icon" href="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696440/BlueberryMX/favicon_rvg88e.png" />
+     <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
  
      <!-- Plugins -->
      <link rel="stylesheet" href="{{ asset('front/css/plugins.css') }}" />
@@ -34,7 +34,7 @@
         <div class="swiper-container parallax-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696317/BlueberryMX/index/slide-01-construyendo_mv1nkc.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785595/index/slide-01-construyendo_pqys19.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8 col-md-10">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696317/BlueberryMX/index/slide-02-estetico_xfgdxk.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785599/index/slide-02-estetico_mbrvi5.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 col-md-9">
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696317/BlueberryMX/index/slide-03-intuitivo_h0yuxs.jpg" data-overlay-dark="6">
+                    <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/slide-03-intuitivo_xybchu.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-7 col-md-9">
@@ -103,7 +103,7 @@
                 <a href="https://www.facebook.com/profile.php?id=100089242747257" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/blueberrymx_/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.youtube.com/channel/UCCSwSHd-JKN08XtD0BQF1gQ" target="_blank"><i class="fab fa-youtube fz-14"></i></a>
-                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041326/BlueberryMX/index/icono-tiktok-white_cfgwcp.png" alt="Tik Tok" class="icono-tiktok"/></a>
+                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/icono-tiktok-white_rhipzq.png" alt="Tik Tok" class="icono-tiktok"/></a>
                 <a href="https://www.linkedin.com/company/blueberrymx" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 <a href="https://vimeo.com/blueberrymx" target="_blank"><i class="fab fa-vimeo-v"></i></a>
 
@@ -133,28 +133,28 @@
                     <div class="col-lg-6 mb-30">
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041424/BlueberryMX/index/plataform-web-en_zfmuoh.jpg" alt="Platafromas web"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785595/index/plataform-web-en_diw3b4.jpg" alt="Platafromas web"/>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 mb-30">
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
                             <div class="img">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/ecommerce-en_nvhftx.jpg" alt="E-commerce"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785599/index/ecommerce-en_mitiob.jpg" alt="E-commerce"/>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 mb-5 mb-30">
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041423/BlueberryMX/index/landing-pages-en_xfm1ms.jpg" alt="Landing pages"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/landing-pages-en_i6kx8g.jpg" alt="Landing pages"/>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 mb-5 mb-30">
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
                             <div class="img">
-                                <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/digital-integration-en_ujrv5d.jpg" alt="Integración digital de negocios"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785597/index/digital-integration-en_kp9koa.jpg" alt="Integración digital de negocios"/>
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img">
                                 <div class="img-soluciones">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696316/BlueberryMX/index/poder_okcow9.jpg" alt="Incredible power	 and Incredible design"/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/poder-increible_e5n9tt.jpg" alt="Incredible power	 and Incredible design"/>
                                     <div class="txt-soluciones">
                                         <h1 class="fz-25 semiBold">Incredible power	</h1>
                                         <h1 class="fz-25">Incredible design</h1>
@@ -218,7 +218,7 @@
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
                             <div class="img">
                                 <div class="img-soluciones">
-                                    <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041422/BlueberryMX/index/experiencia_mrivuw.jpg" alt="One seamless consumer experience"/>
+                                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/experiencia_jj1hix.jpg" alt="One seamless consumer experience"/>
                                     <div class="txt-soluciones">
                                         <h1 class="fz-25 semiBold">One seamless</h1>
                                         <h1 class="fz-25"> consumer experience</h1>
@@ -253,28 +253,28 @@
                                 <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img ">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/icono-laravel_utt2nl.png" alt="Laravel" class="sombra zoom"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/icono-laravel_int24u.png" alt="Laravel" class="sombra zoom"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".6s">
                                         <div class="img">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/icono-react_vmfnhv.png" alt="React Js" class="sombra zoom"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/icono-react_dmdoxv.png" alt="React Js" class="sombra zoom"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".8s">
                                         <div class="img">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/icono-vue_k8sx4o.png" alt="Vue Js" class="sombra zoom"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/icono-vue_kcorlp.png" alt="Vue Js" class="sombra zoom"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/icono-mysql_vh1ukz.png" alt="Mysql" class="sombra zoom"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/icono-mysql_ee0gci.png" alt="Mysql" class="sombra zoom"/>
                                         </div>
                                     </div>
                                 </div>
@@ -283,28 +283,28 @@
                                 <div class="col-md-3 col-6 brands sm-mb30">
                                     <div class="item wow fadeIn" data-wow-delay=".4s">
                                         <div class="img">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/icono-firebase_owjp47.png" alt="Firebase" class="sombra zoom"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785595/index/icono-firebase_hoggzk.png" alt="Firebase" class="sombra zoom"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-6 brands sm-mb30">
                                     <div class="item wow fadeIn" data-wow-delay=".7s">
                                         <div class="img">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/icono-after_g4l1ra.png" alt="After Efects" class="sombra zoom"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785595/index/icono-after_ymygfk.png" alt="After Efects" class="sombra zoom"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".5s">
                                         <div class="img">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/icono-premier_b3nufa.png" alt="Premier" class="sombra zoom"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785597/index/icono-premier_fco7vx.png" alt="Premier" class="sombra zoom"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-3 col-6 brands">
                                     <div class="item wow fadeIn" data-wow-delay=".3s">
                                         <div class="img">
-                                            <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1673041421/BlueberryMX/index/icono-xd_ue8tfw.png" alt="XD" class="sombra zoom"/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785596/index/icono-xd_ecvauv.png" alt="XD" class="sombra zoom"/>
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +330,7 @@
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="img">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696316/BlueberryMX/index/optimiza-cada-parte_zdehcz.png" alt="Optimiza cada parte"/>
+                                        <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/optimiza-cada-parte_pxvnnx.png" alt="Optimiza cada parte"/>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 valign">
@@ -352,7 +352,7 @@
                                         </div>
     
                                         <div class="shape-light">
-                                            <img src="../img/shape-light.png" alt=""/>
+                                            <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785633/shape-light_tzum2u.png" alt=""/>
                                         </div>
                                     </div>
                                 </div>
@@ -385,7 +385,7 @@
                             <div class="item mb-30  tam-cards-ch wow fadeIn" data-wow-delay=".3s">
                                 <div class="item-tit mb-15">
                                     <div class="icon">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696317/BlueberryMX/index/icono-software_yruo0f.png" alt="" class="icono-software"/>
+                                        <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/icono-software_jyfsqe.png" alt="" class="icono-software"/>
                                     </div>
                                 </div>
         
@@ -396,7 +396,7 @@
                             <div class="item mb-30  tam-cards-ch wow fadeIn" data-wow-delay=".6s">
                                 <div class="item-tit mb-15">
                                     <div class="icon">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696315/BlueberryMX/index/icono-alcance_fbe100.png" alt="" class="icono-alcance"/>
+                                        <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785597/index/icono-alcance_xgm6rc.png" alt="" class="icono-alcance"/>
                                     </div>
                                 </div>
                                 <p class="bold fz-16">
@@ -409,7 +409,7 @@
                             <div class="item mb-30 tam-cards-ch wow fadeIn" data-wow-delay=".8s">
                                 <div class="item-tit mb-15">
                                     <div class="icon">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696316/BlueberryMX/index/icono-construccion_iuevqh.png" alt="" class="icono-construccion"/>
+                                        <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/icono-construccion_ddwwiu.png" alt="" class="icono-construccion"/>
                                     </div>
                                 </div>
         
@@ -420,7 +420,7 @@
                             <div class="item sm-mb50 tam-cards-ch  wow fadeIn" data-wow-delay="1s">
                                 <div class="item-tit mb-15">
                                     <div class="icon">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696315/BlueberryMX/index/icono-esencia_vzk0wt.png" alt="" class="icono-esencia"/>
+                                        <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/icono-esencia_nozgpk.png" alt="" class="icono-esencia"/>
                                     </div>
                                 </div>
                                 <p class="bold fz-16">
@@ -433,7 +433,7 @@
                             <div class="item sm-mb50 tam-cards-ch  wow fadeIn" data-wow-delay="1.3s">
                                 <div class="item-tit mb-15">
                                     <div class="icon">
-                                        <img src="https://res.cloudinary.com/dra1bsh4u/image/upload/v1672696315/BlueberryMX/index/icono-desarrollo_ywyfbj.png" alt="" class="icono-desarrollo"/>
+                                        <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/icono-desarrollo_f8iru7.png" alt="" class="icono-desarrollo"/>
                                     </div>
                                 </div>
         
