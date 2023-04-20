@@ -7,7 +7,7 @@
     <meta name="author" content="blueberry.mx" />
 
     <!-- Title  -->
-    <title>Blueberry | Agencia de publicidad </title>
+    <title>Agencia de publicidad | Blueberry </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
@@ -79,7 +79,8 @@
 
                                     <div class=" mb-40">
                                         <input  placeholder="Teléfono" disabled class="no-bordes"/>
-                                        <input type="tel" name="phone" id="phone" data-error="Please enter a requested format - ex. 888 888-8888" value="" placeholder="">
+                                        <input type="hidden" id="lada" name="lada"/>
+                                        <input type="tel" name="phone" id="phone" class="form-control" data-error="Please enter a requested format - ex. 888 888-8888" value="" placeholder="" required onchange="value_input()">
                                     </div>
 
                                     <div class="form-group">
@@ -179,62 +180,57 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/js/intlTelInput.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.js'></script>
     <script>
-        /* INITIALIZE PHONE INPUTS WITH THE intlTelInput FEATURE*/
-        let input = document.querySelector("#phone");
-
-        let iti = intlTelInput(input);
-
-        $(window).on("load", function() {
-        
-        intlTelInputGlobals.loadUtils("https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/15.0.1/js/utils.js");
-        
-        intlTelInput(input, {
-            initialCountry: "mx",
-            separateDialCode: true,
-            nationalMode: false,
-            });
-
-            let countryData = window.intlTelInputGlobals.getCountryData();
-        
-            console.log(countryData);
-        
-        });
-
-        $("#phone").focusout( function(e, countryData) {
-        
-        let phone_number = $("#phone").val();
-            phone_number = iti.getNumber(intlTelInputUtils.numberFormat.E164);
-            
-            console.log(phone_number);
-        });
-
-
-            // Example starter JavaScript for disabling form submissions if there are invalid fields
-            (function () {
-            'use strict'
-
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            var forms = document.querySelectorAll('.needs-validation')
-
-            // Loop over them and prevent submission
-            Array.prototype.slice.call(forms)
-                .forEach(function (form) {
-                form.addEventListener('submit', function (event) {
-                    if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                    }
-
-                    form.classList.add('was-validated')
-                }, false)
-                })
-            })()
-            const expresiones ={
-                nombre: /^[a-zA-ZÁ-ü\s]{1,49}$/,
-                correo:/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+$/,
-                telefono: /^\d{7,14}$/
-                }
-            
+ /* INITIALIZE PHONE INPUTS WITH THE intlTelInput FEATURE*/
+ var input = document.querySelector("#phone");
+ window.intlTelInput(input, {
+     initialCountry: "auto",
+     separateDialCode: true,
+     nationalMode: false,
+     geoIpLookup: callback => {
+         fetch("https://ipapi.co/json")
+         .then(res => res.json())
+         .then(data => {
+             console.log(data.country_code)
+             callback(data.country_code)
+         })
+         .catch(() => callback("mx"));
+     },
+     utilsScript: "/intl-tel-input/js/utils.js?1681516311936" // just for formatting/placeholders etc
+  });
+ 
+  const value_input = () => {
+     
+     let lada = document.querySelector(".selected-dial-code");
+     document.getElementById('lada').value = lada.innerHTML
+     console.log(lada.innerHTML)
+  }
+ 
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+      'use strict'
+ 
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+ 
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+              }
+ 
+              form.classList.add('was-validated')
+          }, false)
+          })
+      })()
+      const expresiones ={
+          nombre: /^[a-zA-ZÁ-ü\s]{1,49}$/,
+          correo:/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-.]+$/,
+          telefono: /^\d{7,14}$/
+          }
+      
 
     </script>
 </body>

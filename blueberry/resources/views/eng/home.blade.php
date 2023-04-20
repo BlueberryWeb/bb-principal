@@ -8,6 +8,7 @@
      <meta name="keywords" content="Web developmetnt, E-commerce, Web platform, Digital agency, Creative agency, Software deveolpment, Marketing digital" />
      <meta name="description" content="We are a creative agency specialized in web development, our passion for technology allows us to create successful projects and solutions for our clients." />
      <meta name="author" content="blueberry.mx" />
+     <meta name="robots" content="index, follow"/>
  
      <!-- Title  -->
      <title>Blueberry | Software company in Mexico </title>

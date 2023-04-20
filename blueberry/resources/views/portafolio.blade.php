@@ -8,7 +8,7 @@
     <meta name="author" content="blueberry.mx" />
 
     <!-- Title  -->
-    <title>Blueberry | Agencia de publicidad </title>
+    <title>Agencia de publicidad | Blueberry </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
@@ -61,13 +61,13 @@
                             <div class="col-lg-12">
                                 <div class="caption">
                                     <h1>
-                                        <a href="project-details2.html" target="_blank">
+                                        <a href="#" target="_blank">
                                             <div class="stroke" data-swiper-parallax="-2000"></div>
                                         </a>
                                         <div class="bord"></div>
                                     </h1>
                                     <div class="discover">
-                                        <a href="project-details2.html" target="_blank"><span>Ver <br> más</span></a>
+                                        <a href="#" target="_blank"><span>Ver <br> más</span></a>
                                     </div>
                                 </div>
                             </div>

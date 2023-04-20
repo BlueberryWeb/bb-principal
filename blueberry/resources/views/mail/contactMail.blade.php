@@ -83,7 +83,7 @@
                     Correo electrónico: {{ $msg['email'] }}
                 </p>
                 <p style="margin:0;">
-                    Teléfono: {{ $msg['phone'] }}
+                    Teléfono: {{ $msg['lada'] }} {{ $msg['phone'] }}
                 </p>
                 <p style="margin:0;">
                     Mensaje: {{ $msg['message'] }}
@@ -106,7 +106,7 @@
                         <img src="https://res.cloudinary.com/dndruzsgc/image/upload/v1676306304/correos/icono-tk_h6dyjb.png" width="15" height="15" alt="t" style="display:inline-block;color:#cccccc; margin-right: 1rem;">
                     </a>
                     <a href="https://vimeo.com/blueberrymx" style="text-decoration:none;">
-                        <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1676306752/logos%20para%20correos/icono-vimeo_cqv3hj.png" width="15" height="15" alt="t" style="display:inline-block;color:#cccccc; margin-right: 1rem;"">
+                        <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1676306752/logos%20para%20correos/icono-vimeo_cqv3hj.png" width="15" height="15" alt="t" style="display:inline-block;color:#cccccc; margin-right: 1rem;">
                     </a>
                     <a href="https://www.linkedin.com/company/blueberrymx" style="text-decoration:none;">
                         <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1676306752/logos%20para%20correos/icono-in_k3y4wl.png" width="15" height="15" alt="t" style="display:inline-block;color:#cccccc;">

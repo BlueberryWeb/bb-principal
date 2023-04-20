@@ -8,7 +8,7 @@
     <meta name="author" content="blueberry.mx" />
 
     <!-- Title  -->
-    <title>Blueberry | Agencia de publicidad </title>
+    <title>Agencia de publicidad | Blueberry </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
@@ -61,13 +61,13 @@
                                 <div class="col-lg-12">
                                     <div class="caption">
                                         <h1>
-                                            <a href="project-details2.html">
+                                            <a href="#">
                                                 <div class="stroke" data-swiper-parallax="-2000"></div>
                                             </a>
                                             <div class="bord"></div>
                                         </h1>
                                         <div class="discover">
-                                            <a href="project-details2.html"><span>Visit <br> site</span></a>
+                                            <a href="#"><span>Visit <br> site</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +130,7 @@
                                             <div class="bord"></div>
                                         </h1>
                                         <div class="discover">
-                                            <a href="project-details2.html" target="_blank"><span>Visit <br> site</span></a>
+                                            <a href="https://parvati.global/" target="_blank"><span>Visit <br> site</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -166,13 +166,13 @@
                                 <div class="col-lg-12">
                                     <div class="caption">
                                         <h1>
-                                            <a href="project-details2.html">
+                                            <a href="https://beirat.mx/">
                                                 <div class="stroke" data-swiper-parallax="-2000"></div>
                                             </a>
                                             <div class="bord"></div>
                                         </h1>
                                         <div class="discover">
-                                            <a href="project-details2.html"><span>Visit <br> site</span></a>
+                                            <a href="https://beirat.mx/"><span>Visit <br> site</span></a>
                                         </div>
                                     </div>
                                 </div>

@@ -9,9 +9,10 @@
     <meta name="keywords" content="Desarrollo web, E-commerce, Plataforma web, Agencia digital, Agencia creativa, Desarrollo de software, Marketing digital" />
     <meta name="description" content="Somos una agencia creativa especializada en el desarrollo web, nuestra pasión por la tecnología, nos permite crear proyectos y soluciones exitosos para nuestros clientes." />
     <meta name="author" content="blueberry.mx" />
+    <meta name="robots" content="index, follow"/>
 
     <!-- Title  -->
-    <title>Blueberry | Agencia de publicidad </title>
+    <title>Agencia de publicidad | Blueberry </title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />

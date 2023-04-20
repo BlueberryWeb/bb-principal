@@ -13,6 +13,7 @@ class mailController extends Controller
             'name' => 'required',
             'email' => 'required',
             'phone' => 'required',
+            'lada' => 'required',
             'message' => 'required'
         ]);
         //dd('entre');

@@ -8,7 +8,7 @@
     <meta name="author" content="blueberry.mx" />
     
     <!-- Title  -->
-    <title>Blueberry | Agencia de publicidad </title>
+    <title>Agencia de publicidad | Blueberry </title>
     
     <!-- Favicon -->
     <link rel="shortcut icon" href="https://res.cloudinary.com/dej55trpk/image/upload/v1675785564/favicon_h7ecbp.png" />
