@@ -337,7 +337,7 @@
                                 <div class="col-lg-6 valign">
                                     <div class="cont">
                                         <div class="s-head">
-                                            <h2 class="semiBold">Optimize every part of the checkout experience to convert more customers. </h2>
+                                            <h2 class="semiBold">Optimise every part of the checkout experience to convert more customers. </h2>
                                             <span class="text-white fz-18">
                                                 The solution for millions of buisnesses of all sizes-from startups to large enerprises.
                                             </span>

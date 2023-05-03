@@ -78,7 +78,7 @@
             <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-verde_oc8wpc.png" alt="Blueberry"/>
         @elseif ($url == '/development')
             <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-morado_m0ye2v.png" alt="desarrollo"/>
-        @elseif ($url == '/ecommerceEng')
+        @elseif ($url == '/ecommerce')
             <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-azul_algn6r.png" alt="Blueberry"/>
         @elseif ($url == '/contact')
             <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-naranja_c0yty6.png" alt="Blueberry"/>

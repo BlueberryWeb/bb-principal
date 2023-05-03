@@ -34,7 +34,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="cont mt-100 mb-50 text-center">
-                            <h1 class="color-font fw-700 fz-40 wow fadeInUp">We are a creative agency specialized in web development, our passion for technology allows us 
+                            <h1 class="color-font fw-700 fz-40 wow fadeInUp">We are a creative agency specialized in web development. Our passion for technology allows us 
                                 to create successful projects and solutions for our clients.
                             </h1>
                         </div>
@@ -65,7 +65,7 @@
                 <div class="col-lg-6 valign">
                     <div class="content pt-0">
                         <h4 class="wow color-font wow fadeInUp fz-50">Why Choose Us?</h4>
-                        <p class="wow txt fz-18" data-splitting>Why Choose Us (abstraccion)
+                        <p class="wow txt fz-18" data-splitting>
                             Bold thinking, fearless creativity and the right technology 
                             will unlock new growth for your company. As a progressive leader, 
                             you're searching for a partner that will help you reach your full potential.
@@ -132,7 +132,7 @@
                                 </div>
                             </div>
                             <div class="skill-item">
-                                <h6 class="custom-font fz-70 semiBold">State-of-the-art desing</h6>
+                                <h6 class="custom-font fz-70 semiBold">State-of-the-art design</h6>
                                 <div class="skill-progress">
                                     <div class="progres" data-value="100%"></div>
                                 </div>

@@ -76,7 +76,7 @@
                             <span class="icon">
                                 <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785626/ecommerce/icono-b2b_euklb9.png" alt="" class="icono-b2b"/>
                             </span>
-                            <h5>B2b y B2c</h5>
+                            <h5>B2b & B2c</h5>
                             <p>
                                 We have an in-depth knowledge of business-to-businesses (B2B) 
                                 and business-to-customer (B2C) designs.

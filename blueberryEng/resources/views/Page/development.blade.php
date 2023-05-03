@@ -43,8 +43,7 @@
                             <p class="regular wow text fz-18" data-splitting>Web development is an essential component to every business in this century. 
                                 To reach a bigger audience, create more awareness, and increase sales, you 
                                 have to be online. However, an online presence must exude your brand.
-                                We use our years of experience to design, create, and maintain websites for 
-                                any business across all industries.
+                                We use our years of experience to design, create and maintain websites for businesses across all industries. 
                             </p>
                         </div>
                     </div>
@@ -62,7 +61,7 @@
                             </div>
     
                             <p class="fz-16"> We design websites from scratch and redesign/refresh existing ones to 
-                                modernize them, as well as improve the system to updated infrastructure. 
+                                modernise them, as well as improve the system to updated infrastructure. 
                                 In design, we consider the requirements of our clients and give the standard 
                                 that will add to the quality of their business or whatever purpose for which 
                                 the website is developed.
@@ -115,7 +114,7 @@
                                 </div>
                             </div>
                             <p class="fz-16">We take into consideration what the market needs, see what they look for in 
-                                software design, and then create solutions that maximize utility and 
+                                software design, and then create solutions that maximise utility and 
                                 ease-of-adoption.
                             </p>
                         </div>
