@@ -72,7 +72,7 @@
         $url= $_SERVER["REQUEST_URI"];
         
         @endphp
-        @if ($url === '/home')
+        @if ($url === '/')
             <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785641/bb-footer-rojo_ywt6ut.png" alt="Blueberry"/>                
         @elseif ($url == '/about')
             <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/bb-footer-verde_oc8wpc.png" alt="Blueberry"/>
@@ -133,7 +133,7 @@
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
                 <div class="justify-content-center">
-                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/we-materialize_xwuusu.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
+                    <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1683314866/ingles-UK/we-materialsed_zftcte.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
                 </div>
             </div>
             <div class="col-lg-4"></div>

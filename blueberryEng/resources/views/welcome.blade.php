@@ -25,7 +25,7 @@
 <body>
     <!-- ==================== Start Navbar ==================== -->
 
-    @include('components.menuw')
+    @include('components.menuW')
 
     <!-- ==================== End Navbar ==================== -->
 
@@ -148,14 +148,14 @@
                     <div class="col-lg-6 mb-5 mb-30">
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".3s">
                             <div class="img">
-                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/landing-pages-en_i6kx8g.jpg" alt="Landing pages"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1683314865/ingles-UK/landing-pages-2_lyr8c2.jpg" alt="Landing pages"/>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 mb-5 mb-30">
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
                             <div class="img">
-                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785597/index/digital-integration-en_kp9koa.jpg" alt="Integración digital de negocios"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1683314865/ingles-UK/digital-business-2_d0sljm.jpg" alt="Integración digital de negocios"/>
                             </div>
                         </div>
                     </div>
