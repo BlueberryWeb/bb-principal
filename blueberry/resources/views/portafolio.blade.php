@@ -180,6 +180,217 @@
                     </div>
                 </div>
             </div>
+            <!-- AGREGADOS -->
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667911/portafolio/tractobull_lu04i1.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://tractobull.mx/" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://tractobull.mx/" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667908/portafolio/textron-aviation_trw3en.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://txtav.com/" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://txtav.com/" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667908/portafolio/amti_dkz9gv.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://amti.uk/" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://amti.uk/" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667907/portafolio/movalia_awlq8h.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://www.movalia.mx/" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://www.movalia.mx/" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667907/portafolio/kluane_wozyli.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://kluanedrilling.ca/" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://kluanedrilling.ca/" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667907/portafolio/remax_sfkeaz.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://remaxnewbeginning.com/" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://remaxnewbeginning.com/" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667907/portafolio/stuen_nbmbzb.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://stuen.mx/" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://stuen.mx/" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667905/portafolio/sbgroup_yib3fj.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://www.sbgroup.com.mx/eng/index.html" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://www.sbgroup.com.mx/eng/index.html" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667902/portafolio/circo-dragon_xyafju.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://www.youtube.com/watch?v=J--WKXA0_w8" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://www.youtube.com/watch?v=J--WKXA0_w8" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667902/portafolio/premier-nuts_l4zyaq.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://premiernuts.com.mx" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://premiernuts.com.mx" target="_blank"><span>Ver <br> más</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- slider setting -->
