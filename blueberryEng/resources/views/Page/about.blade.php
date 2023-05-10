@@ -72,7 +72,7 @@
                         </p>
                         <ul class="feat">
                             <li class="wow fadeInUp" data-wow-delay=".2s">
-                                <h6 class="semiBold fz-20"><span>1</span>We Materialize your business ideas</h6>
+                                <h6 class="semiBold fz-20"><span>1</span>We Materialise your business ideas</h6>
                                 <p class="fz-16">Our innovation, creativity and expertise give us a holistic perspective of your 
                                     needs, letting us making better decisions to bring your desired website to life.
                                 </p>
@@ -211,8 +211,6 @@
          @include('components.callToAction')
 
          <!-- ==================== End call-to-action ==================== -->
- 
- 
  
          <!-- ==================== Start Footer ==================== -->
  

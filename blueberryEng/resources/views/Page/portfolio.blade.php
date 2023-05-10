@@ -96,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <!--<div class="swiper-slide">
                     <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785623/portafolio/jeanswest_s1ov9c.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row">
@@ -116,8 +116,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
+                </div>-->
+                <!--<div class="swiper-slide">
                     <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785620/portafolio/parvati_dggnhk.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row">
@@ -137,8 +137,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
+                </div>-->
+                <!--<div class="swiper-slide">
                     <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785618/portafolio/hispanocash_wueg1u.jpg" data-overlay-dark="6">
                         <div class="container">
                             <div class="row">
@@ -158,7 +158,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="swiper-slide">
                     <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1675785668/beirat-portfolio_wlggyo.jpg" data-overlay-dark="6">
                         <div class="container">
@@ -293,13 +293,13 @@
                             <div class="col-lg-12">
                                 <div class="caption">
                                     <h1>
-                                        <a href="https://remaxnewbeginning.com/" target="_blank">
+                                        <a href="https://www.youtube.com/watch?v=j_IBkP_NJ2s" target="_blank">
                                             <div class="stroke" data-swiper-parallax="-2000"></div>
                                         </a>
                                         <div class="bord"></div>
                                     </h1>
                                     <div class="discover">
-                                        <a href="https://remaxnewbeginning.com/" target="_blank"><span>Visit <br> site</span></a>
+                                        <a href="https://www.youtube.com/watch?v=j_IBkP_NJ2s" target="_blank"><span>Visit <br> video</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -362,7 +362,7 @@
                                         <div class="bord"></div>
                                     </h1>
                                     <div class="discover">
-                                        <a href="https://www.youtube.com/watch?v=J--WKXA0_w8" target="_blank"><span>Visit <br> site</span></a>
+                                        <a href="https://www.youtube.com/watch?v=J--WKXA0_w8" target="_blank"><span>Visit <br> video</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -377,13 +377,13 @@
                             <div class="col-lg-12">
                                 <div class="caption">
                                     <h1>
-                                        <a href="https://premiernuts.com.mx" target="_blank">
+                                        <a href="https://player.vimeo.com/video/637231043?h=fd15856a8d" target="_blank">
                                             <div class="stroke" data-swiper-parallax="-2000"></div>
                                         </a>
                                         <div class="bord"></div>
                                     </h1>
                                     <div class="discover">
-                                        <a href="https://premiernuts.com.mx" target="_blank"><span>Visit <br> site</span></a>
+                                        <a href="https://player.vimeo.com/video/637231043?h=fd15856a8d" target="_blank"><span>Visit <br> video</span></a>
                                     </div>
                                 </div>
                             </div>

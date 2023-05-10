@@ -118,7 +118,7 @@
                                     <div class="form-group">
                                         <textarea class="form-control" name="message" placeholder="Message" rows="4" required></textarea>
                                         <div class="invalid-feedback">
-                                            Por favor enter a message
+                                            Please enter a valid message
                                         </div>
                                     </div>
                                     <button type="submit" class="butn dark"><span>Send message</span></button>
@@ -131,39 +131,40 @@
                             <h4 class="fw-700 color-font mb-50 semiBold wow fadeInUp fz-35">Contact Info</h4>
                             <h3 class="wow" data-splitting>Let's talk</h3>
                             <div class="item mb-40">
-                                <h5><a href="mailto:hello@blueberry.mx?Subject=Get%20Infomation%20Blueberry" target="_blank">hello@blueberry.mx</a></h5>
-                                <a href="https://api.whatsapp.com/send?phone=523313257156" target="_blank"><h5>+52 (33) 1325 7256</h5></a>
-                                <a href="tel:+523331093636" target="_blank"><h5>+52 (33) 3109 3636</h5></a>
+                                 <h5><a href="mailto:hello@blueberrytech.uk?Subject=Get%20Infomation%20Blueberry" target="_blank">hello@blueberrytech.uk</a></h5>
+                                 <h5><a href="mailto:george.obukofe@blueberrytech.uk?Subject=Get%20Infomation%20Blueberry" target="_blank">george.obukofe@blueberrytech.uk</a></h5>
+                                <h5><a href="mailto:azucena.monsivais@blueberrytech.uk?Subject=Get%20Infomation%20Blueberry" target="_blank">azucena.monsivais@blueberrytech.uk</a></h5>
+                                
                                 
                             </div>
                             <h3 class="wow" data-splitting>Visit us</h3>
-                            <div class="item">
+                            <!--<div class="item">
                                 <a href="https://goo.gl/maps/AhgmTgwyNhp2kmwt9" target="_blank">
                                     <h6>Av. Rubén Darío #586,
                                         <br>Guadalajara, Jal.
                                     </h6>
                                 </a>
                                 
-                            </div>
+                            </div>-->
                             <div class="social mt-50">
                                 <a href="https://www.facebook.com/profile.php?id=100089242747257" class="icon" target="_blank">
                                     <i class="fab fa-facebook-f fz-20"></i>
                                 </a>
-                                <a href="https://www.instagram.com/blueberrymx_/" class="icon" target="_blank">
+                                <a href="https://www.instagram.com/blue.berrytech/" class="icon" target="_blank">
                                     <i class="fab fa-instagram fz-20"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/company/blueberrymx" class="icon" target="_blank">
+                                <!--<a href="https://www.linkedin.com/company/blueberrymx" class="icon" target="_blank">
                                     <i class="fab fa-linkedin-in fz-20"></i>
-                                </a>
-                                <a href="https://www.youtube.com/channel/UCCSwSHd-JKN08XtD0BQF1gQ" target="_blank">
+                                </a>-->
+                                <!--<a href="https://www.youtube.com/channel/UCCSwSHd-JKN08XtD0BQF1gQ" target="_blank">
                                     <i class="fab fa-youtube fz-20"></i>
-                                </a>
+                                </a>-->
                                 <a href="https://vimeo.com/blueberrymx" target="_blank">
                                     <i class="fab fa-vimeo-v fz-20"></i>
                                 </a>
-                                <a href="https://www.tiktok.com/@blueberrymx1" target="_blank">
+                                <!--<a href="https://www.tiktok.com/@blueberrymx1" target="_blank">
                                     <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785594/index/icono-tiktok-black_bofuvc.png" alt="Tik Tok" class="icono-tiktok"/>
-                                </a>
+                                </a>-->
                             </div>
                         </div>
                     </div>
@@ -182,7 +183,7 @@
 
         <!-- =========== Start Button WhatsApp ================= -->
         <div class="cursor-pointer">
-            <a href="https://api.whatsapp.com/send?phone=525540324042" class="btn-flotante-whats" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=447887665444" class="btn-flotante-whats" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-whatsapp"></i>
             </a>
         </div>

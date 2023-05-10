@@ -155,7 +155,7 @@
                     <div class="col-lg-6 mb-5 mb-30">
                         <div class="item md-mb50 wow fadeInUp" data-wow-delay=".5s">
                             <div class="img">
-                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1683314865/ingles-UK/digital-business-2_d0sljm.jpg" alt="Integración digital de negocios"/>
+                                <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1683314865/ingles-UK/digital-business-2_d0sljm.jpg" alt="Integraci贸n digital de negocios"/>
                             </div>
                         </div>
                     </div>

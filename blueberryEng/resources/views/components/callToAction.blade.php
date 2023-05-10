@@ -12,17 +12,20 @@
                 <a href="{{ route('contact') }}" class="butn dark curve wow fadeInUp" data-wow-delay=".5s"><span>Get In
                     Touch</span></a>
                 <div class="mb-20 mt-20">
-                    <a href="mailto:hello@blueberry.mx?Subject=Solicitar%20Informes%20Blueberry">
-                        <p>hello@blueberry.mx</p>
+                    <a href="mailto:hello@blueberrytech.uk?Subject=Solicitar%20Informes%20Blueberry">
+                        <p>hello@blueberrytech.uk</p>
+                    </a>
+                    <a href="mailto:george.obukofe@blueberrytech.uk?Subject=Solicitar%20Informes%20Blueberry">
+                        <p>george.obukofe@blueberrytech.uk</p>
+                    </a>
+                    <a href="mailto:azucena.monsivais@blueberrytech.uk?Subject=Solicitar%20Informes%20Blueberry">
+                        <p>azucena.monsivais@blueberrytech.uk</p>
                     </a>
                 </div>
                 <div class="">
-                    <a href="https://api.whatsapp.com/send?phone=523313257156" target="_blank">
-                        <p>+52 (33) 1325 7256</p>
+                    <a href="https://api.whatsapp.com/send?phone=447887665444" target="_blank">
+                        <p class="fz-16">+44 (78) 8766 5444</p>
                     </a> <br/>
-                    <a href="tel:+523331093636" target="_blank">
-                        <p>+52 (33) 3109 3636</p>
-                    </a>
                 </div>
             </div>
 
