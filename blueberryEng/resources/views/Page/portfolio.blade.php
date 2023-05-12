@@ -203,7 +203,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667908/portafolio/textron-aviation_trw3en.png" data-overlay-dark="6">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683823433/portafolio/texton-aviation_cjasyq.png" data-overlay-dark="6">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -266,7 +266,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667907/portafolio/kluane_wozyli.png" data-overlay-dark="6">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683915687/portafolio/kluane-nuevo_gsfxfi.png" data-overlay-dark="6">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -287,7 +287,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667907/portafolio/remax_sfkeaz.png" data-overlay-dark="6">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683915685/portafolio/remax-ultimo_u2yqca.png" data-overlay-dark="6">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -350,7 +350,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667902/portafolio/circo-dragon_xyafju.png" data-overlay-dark="6">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683823434/portafolio/circo_vuxzza.png" data-overlay-dark="6">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -371,7 +371,7 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683667902/portafolio/premier-nuts_l4zyaq.png" data-overlay-dark="6">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683823433/portafolio/premier_fdkzjz.png" data-overlay-dark="6">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
@@ -391,7 +391,49 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683915686/portafolio/kluane-video_jvgv1u.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://www.youtube.com/watch?v=9vVByLVb1S8" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://www.youtube.com/watch?v=9vVByLVb1S8" target="_blank"><span>Visit <br> video</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="swiper-slide">
+                <div class="bg-img valign" data-background="https://res.cloudinary.com/dej55trpk/image/upload/v1683927584/portafolio/remax-video_tuilmp.png" data-overlay-dark="6">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="caption">
+                                    <h1>
+                                        <a href="https://www.youtube.com/watch?v=j_IBkP_NJ2s" target="_blank">
+                                            <div class="stroke" data-swiper-parallax="-2000"></div>
+                                        </a>
+                                        <div class="bord"></div>
+                                    </h1>
+                                    <div class="discover">
+                                        <a href="https://www.youtube.com/watch?v=j_IBkP_NJ2s" target="_blank"><span>Visit <br> video</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
             <!-- slider setting -->
             <div class="txt-botm">

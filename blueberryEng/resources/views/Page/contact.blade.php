@@ -107,7 +107,7 @@
                                     <div class=" mb-40">
                                         <input  placeholder="Phone" disabled class="no-bordes"/>
                                         <input type="hidden" id="lada" name="lada"/>
-                                    <input type="tel" name="phone" id="phone" class="form-control" data-error="Please enter a requested format - ex. 888 888-8888" value="" placeholder="" required onchange="value_input()">
+                                        <input type="tel" name="phone" id="phone" class="form-control" data-error="Please enter a requested format - ex. 888 888-8888" value="" placeholder="" required onchange="value_input()">
                                     </div>
                                     <div class="form-group">
                                         <input class="form-control"  type="email" name="email" placeholder="Email" required>
