@@ -117,6 +117,7 @@
                 <div class="col-lg-6">
                     <div class="item">
                         <div class="social justify-content-center">
+                            <a style="visibility: hidden" href="https://www.tiktok.com/@blueberrymx1" target="_blank"><img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785598/index/icono-tiktok-white_rhipzq.png" alt="Tik Tok" class="icono-tiktok" /></a>
                             <a href="https://www.facebook.com/profile.php?id=100089242747257" target="_blank"><i class="fab fa-facebook-f fz-18"></i></a>
                             <a href="https://www.instagram.com/blueberrymx_/" target="_blank"><i class="fab fa-instagram fz-18"></i></a>
                             <a href="https://www.youtube.com/channel/UCCSwSHd-JKN08XtD0BQF1gQ" target="_blank"><i class="fab fa-youtube fz-18"></i></a>
@@ -127,8 +128,17 @@
                             
                     </div>
                 </div>
-                <div class="col-lg-3"></div>
+                <div class="col-lg-2"></div>
                     
+            </div>
+            <div class="row mt-20">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="text-center">
+                        <a href="{{ route('terminos') }}">Términos y Condiciones</a>
+                    </div>
+                </div>
+                <div class="col-lg-4"></div>
             </div>
             <div class="row mt-20">
                 <div class="col-lg-4"></div>

@@ -132,6 +132,15 @@
         <div class="row mt-20">
             <div class="col-lg-4"></div>
             <div class="col-lg-4">
+                <div class="text-center">
+                    <a href="{{ route('terms') }}">Terms and Conditions</a>
+                </div>
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+        <div class="row mt-20">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
                 <div class="justify-content-center">
                     <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785642/we-materialize_xwuusu.gif" alt="Materialized by Blueberry"  class="bb-materialized"/>
                 </div>
