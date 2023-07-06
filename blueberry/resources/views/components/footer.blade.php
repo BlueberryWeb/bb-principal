@@ -71,7 +71,6 @@
         <div class="container-fluid no-padding">
             @php
                 $url= $_SERVER["REQUEST_URI"];
-                
             @endphp
             @if ($url === '/')
                 <img src="https://res.cloudinary.com/dej55trpk/image/upload/v1675785641/bb-footer-rojo_ywt6ut.png" alt="Blueberry"/>                
